@@ -68,6 +68,9 @@
 
 用于可视化数据、图表和关系的插件。
 
+- **[Dockpanel](https://github.com/cordinGH/orca-dockpanel-plugin)** - 允许将一个面板脱离出来，形成类似于「小窗」的体验。 [@cordinGH](https://github.com/cordinGH)
+- **[Tabsman](https://github.com/cordinGH/orca-tabsman-plugin)** - 在左侧边栏追加一个标签页栏。  [@cordinGH](https://github.com/cordinGH)
+
 #### 开发工具
 
 为使用 Orca Note 的开发者提供的工具和插件。
@@ -81,6 +84,7 @@
 美化 Orca Note 外观的主题。
 
 - **[Official Themes](https://github.com/sethyuan/orca-plugin-official-themes)** - Orca Note 的官方主题集合，提供可安装的主题样式。 [@sethyuan](https://github.com/sethyuan)
+- **[Tune Theme](https://github.com/cordinGH/orca-tune-theme)** - Orca Note 用户主题。 [@cordinGH](https://github.com/cordinGH)
 
 ---
 

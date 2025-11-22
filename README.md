@@ -68,6 +68,9 @@ Plugins that integrate Orca Note with other applications and services.
 
 Plugins for visualizing data, graphs, and relationships.
 
+- **[Dockpanel](https://github.com/cordinGH/orca-dockpanel-plugin)** - Allows detaching a panel to create a "floating window"-like experience. [@cordinGH](https://github.com/cordinGH)
+- **[Tabsman](https://github.com/cordinGH/orca-tabsman-plugin)** - Adds a tab bar to the left sidebar. [@cordinGH](https://github.com/cordinGH)
+
 #### Development Tools
 
 Tools and plugins for developers working with Orca Note.
@@ -81,7 +84,7 @@ Tools and plugins for developers working with Orca Note.
 Beautiful themes to customize the appearance of Orca Note.
 
 - **[Official Themes](https://github.com/sethyuan/orca-plugin-official-themes)** - Official themes for Orca Note; provides installable theme styles. [@sethyuan](https://github.com/sethyuan)
-
+- **[Tune Theme](https://github.com/cordinGH/orca-tune-theme)** - A custom user theme for Orca Note. [@cordinGH](https://github.com/cordinGH)
 ---
 
 ### Resources
