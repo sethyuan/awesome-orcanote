@@ -37,6 +37,7 @@
 - **[Flash Cards](https://github.com/Samuelxiaozhuofeng/orca-srs-plugin)** - 为 Orca Note 提供的间隔复习（SRS）插件。 [@Samuelxiaozhuofeng](https://github.com/Samuelxiaozhuofeng)
 - **[Random Walk](https://github.com/sethyuan/orca-random-walk)** - 帮助你回顾/复习笔记的插件（随机漫步复盘）。 [@sethyuan](https://github.com/sethyuan)
 - **[Simple Task](https://github.com/sethyuan/orca-simple-task)** - 帮助你使用 Orca Note 的标签系统快速创建任务的插件。 [@sethyuan](https://github.com/sethyuan)
+- **[orca-hqweay-go](https://github.com/hqweay/orca-hqweay-go)** - 提供：中文排版一键格式化；行内样式清理；VoiceNotes 同步；CSV、Markdown 导入…… [@hqweay](https://github.com/hqweay)
 
 #### 笔记管理
 

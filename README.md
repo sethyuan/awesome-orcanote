@@ -37,6 +37,7 @@ Plugins that enhance your productivity and workflow.
 - **[Flash Cards](https://github.com/Samuelxiaozhuofeng/orca-srs-plugin)** - An SRS (Spaced Repetition System) plugin for Orca Note. [@Samuelxiaozhuofeng](https://github.com/Samuelxiaozhuofeng)
 - **[Random Walk](https://github.com/sethyuan/orca-random-walk)** - A plugin to help you recap/review notes (random-walk review). [@sethyuan](https://github.com/sethyuan)
 - **[Simple Task](https://github.com/sethyuan/orca-simple-task)** - A plugin that helps you quickly create tasks using Orca Note's tag system. [@sethyuan](https://github.com/sethyuan)
+- **[orca-hqweay-go](https://github.com/hqweay/orca-hqweay-go)** - One-click formatting for Chinese typography; inline style cleanup; VoiceNotes synchronization; CSV and Markdown import; etc... [@hqweay](https://github.com/hqweay)
 
 #### Note Management
 
