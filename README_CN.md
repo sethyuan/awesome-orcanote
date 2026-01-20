@@ -39,7 +39,7 @@
 - **[Random Walk](https://github.com/sethyuan/orca-random-walk)** - 帮助你回顾/复习笔记的插件（随机漫步复盘）。 [@sethyuan](https://github.com/sethyuan)
 - **[Simple Task](https://github.com/sethyuan/orca-simple-task)** - 帮助你使用 Orca Note 的标签系统快速创建任务的插件。 [@sethyuan](https://github.com/sethyuan)
 - **[Snippets](https://github.com/SaXz2/orca-snippets-plugin)** - JS 和 CSS 代码片段管理插件。 [@SaXz2](https://github.com/SaXz2)
-- **[Today](https://github.com/SaXz2/orca-today-plugin)** - 添加 Today 标签的笔记会自动置顶到当天日记的引用列表。 [@SaXz2](https://github.com/SaXz2)
+- **[Today](https://github.com/SaXz2/orca-today-plugins)** - 添加 Today 标签的笔记会自动置顶到当天日记的引用列表。 [@SaXz2](https://github.com/SaXz2)
 
 #### 笔记管理
 
