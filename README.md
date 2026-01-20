@@ -34,23 +34,28 @@
 
 Plugins that enhance your productivity and workflow.
 
-- **[Dino Toolbox](https://github.com/hqweay/orca-hqweay-go)** - A collection of tools to enhance your Orca Note experience. [@hqweay](https://github.com/hqweay)
+- **[Dino Toolbox](https://github.com/hqweay/orca-hqweay-go)** - One-click formatting for Chinese typography; inline style cleanup; VoiceNotes synchronization; CSV and Markdown import; etc... [@hqweay](https://github.com/hqweay)
 - **[Flash Cards](https://github.com/Samuelxiaozhuofeng/orca-srs-plugin)** - An SRS (Spaced Repetition System) plugin for Orca Note. [@Samuelxiaozhuofeng](https://github.com/Samuelxiaozhuofeng)
 - **[Random Walk](https://github.com/sethyuan/orca-random-walk)** - A plugin to help you recap/review notes (random-walk review). [@sethyuan](https://github.com/sethyuan)
 - **[Simple Task](https://github.com/sethyuan/orca-simple-task)** - A plugin that helps you quickly create tasks using Orca Note's tag system. [@sethyuan](https://github.com/sethyuan)
-- **[orca-hqweay-go](https://github.com/hqweay/orca-hqweay-go)** - One-click formatting for Chinese typography; inline style cleanup; VoiceNotes synchronization; CSV and Markdown import; etc... [@hqweay](https://github.com/hqweay)
+- **[Snippets](https://github.com/SaXz2/orca-snippets-plugin)** - JS and CSS code snippets management plugin. [@SaXz2](https://github.com/SaXz2)
+- **[Today](https://github.com/SaXz2/orca-today-plugins)** - Automatically pins notes with the Today tag to the top of the current day's journal reference list. [@SaXz2](https://github.com/SaXz2)
 
 #### Note Management
 
 Plugins for organizing, searching, and managing your notes.
 
 - **[Linker](https://github.com/sethyuan/orca-plugin-linker)** - Manages large assets outside Orca Note by creating virtual paths to reference them. [@sethyuan](https://github.com/sethyuan)
+- **[Folder](https://github.com/SaXz2/orca-folder-plugin)** - Document tree plugin. [@SaXz2](https://github.com/SaXz2)
+- **[Page Display](https://github.com/SaXz2/orca-page-display-plugins)** - Page space display plugin that provides intuitive page navigation and space management features. ⚠️ Work in Progress [@SaXz2](https://github.com/SaXz2)
+- **[EasyMotion](https://github.com/SaXz2/orca-EasyMotion-plugin)** - Vim-like quick cursor jump navigation plugin with support for Chinese, Pinyin, and English mixed search. [@SaXz2](https://github.com/SaXz2)
 
 #### Formatting and Editing
 
 Plugins that enhance text formatting and editing capabilities.
 
 - **[Hidden Text](https://github.com/sethyuan/orca-plugin-hidden-text)** - Provides the ability to hide selected text (for folding/obscuring content). [@sethyuan](https://github.com/sethyuan)
+- **[Link Icons](https://github.com/SaXz2/orca-link_icons-plugin)** - Adds icon displays for links. [@SaXz2](https://github.com/SaXz2)
 
 #### Import/Export
 
@@ -65,6 +70,7 @@ Plugins that integrate Orca Note with other applications and services.
 - **[AI Chat](https://github.com/Samuelxiaozhuofeng/AI-orca-plugin)** - AI chat plugin integration for Orca Note. [@Samuelxiaozhuofeng](https://github.com/Samuelxiaozhuofeng)
 - **[Dinox Sync](https://github.com/sethyuan/orca-dinox-sync)** - Syncs Dinox notes into Orca Note (sync into journals). [@sethyuan](https://github.com/sethyuan)
 - **[Flomo Sync](https://github.com/sethyuan/orca-flomo-sync)** - Syncs Flomo notes into Orca Note (sync into journals). [@sethyuan](https://github.com/sethyuan)
+- **[Video Info Extract](https://github.com/SaXz2/orca-video-info-extract-plugin)** - Automatically extracts video information, thumbnails, and channel details from Bilibili, YouTube, and Vimeo, and sets them as tag properties. [@SaXz2](https://github.com/SaXz2)
 
 #### Visualization
 
@@ -72,6 +78,8 @@ Plugins for visualizing data, graphs, and relationships.
 
 - **[Dockpanel](https://github.com/cordinGH/orca-dockpanel-plugin)** - Allows detaching a panel to create a "floating window"-like experience. [@cordinGH](https://github.com/cordinGH)
 - **[Tabsman](https://github.com/cordinGH/orca-tabsman-plugin)** - Adds a tab bar to the left sidebar. [@cordinGH](https://github.com/cordinGH)
+- **[Tabs](https://github.com/SaXz2/orca-tabs-plugin)** - Tab display plugin. [@SaXz2](https://github.com/SaXz2)
+- **[Tana Tag Color](https://github.com/SaXz2/orca-tana-tag-color-plugin)** - Applies Tana-style colors and icons to blocks based on their first tag. [@SaXz2](https://github.com/SaXz2)
 
 #### Development Tools
 
