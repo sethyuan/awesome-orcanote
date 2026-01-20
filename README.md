@@ -48,6 +48,7 @@ Plugins for organizing, searching, and managing your notes.
 - **[Linker](https://github.com/sethyuan/orca-plugin-linker)** - Manages large assets outside Orca Note by creating virtual paths to reference them. [@sethyuan](https://github.com/sethyuan)
 - **[Folder](https://github.com/SaXz2/orca-folder-plugin)** - Document tree plugin. [@SaXz2](https://github.com/SaXz2)
 - **[Page Display](https://github.com/SaXz2/orca-page-display-plugins)** - Page space display plugin that provides intuitive page navigation and space management features. ⚠️ Work in Progress [@SaXz2](https://github.com/SaXz2)
+- **[EasyMotion](https://github.com/SaXz2/orca-EasyMotion-plugin)** - Vim-like quick cursor jump navigation plugin with support for Chinese, Pinyin, and English mixed search. [@SaXz2](https://github.com/SaXz2)
 
 #### Formatting and Editing
 

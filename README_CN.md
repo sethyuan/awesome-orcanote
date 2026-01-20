@@ -48,6 +48,7 @@
 - **[Linker](https://github.com/sethyuan/orca-plugin-linker)** - 帮助将大型资源放在 Orca Note 外管理，并创建虚拟路径以引用这些资源的插件。 [@sethyuan](https://github.com/sethyuan)
 - **[Folder](https://github.com/SaXz2/orca-folder-plugin)** - 文档树插件。 [@SaXz2](https://github.com/SaXz2)
 - **[Page Display](https://github.com/SaXz2/orca-page-display-plugins)** - 页面空间显示插件，提供直观的页面导航和空间管理功能。⚠️ 未完成品 [@SaXz2](https://github.com/SaXz2)
+- **[EasyMotion](https://github.com/SaXz2/orca-EasyMotion-plugin)** - 类似 Vim 的快速光标跳转导航插件，支持中文、拼音、英文混合搜索。 [@SaXz2](https://github.com/SaXz2)
 
 #### 格式化与编辑
 
