@@ -45,10 +45,10 @@ Plugins that enhance your productivity and workflow.
 
 Plugins for organizing, searching, and managing your notes.
 
-- **[Linker](https://github.com/sethyuan/orca-plugin-linker)** - Manages large assets outside Orca Note by creating virtual paths to reference them. [@sethyuan](https://github.com/sethyuan)
-- **[Folder](https://github.com/SaXz2/orca-folder-plugin)** - Document tree plugin. [@SaXz2](https://github.com/SaXz2)
-- **[Page Display](https://github.com/SaXz2/orca-page-display-plugins)** - Page space display plugin that provides intuitive page navigation and space management features. ⚠️ Work in Progress [@SaXz2](https://github.com/SaXz2)
 - **[EasyMotion](https://github.com/SaXz2/orca-EasyMotion-plugin)** - Vim-like quick cursor jump navigation plugin with support for Chinese, Pinyin, and English mixed search. [@SaXz2](https://github.com/SaXz2)
+- **[Folder](https://github.com/SaXz2/orca-folder-plugin)** - Document tree plugin. [@SaXz2](https://github.com/SaXz2)
+- **[Linker](https://github.com/sethyuan/orca-plugin-linker)** - Manages large assets outside Orca Note by creating virtual paths to reference them. [@sethyuan](https://github.com/sethyuan)
+- **[Page Display](https://github.com/SaXz2/orca-page-display-plugins)** - Page space display plugin that provides intuitive page navigation and space management features. ⚠️ Work in Progress [@SaXz2](https://github.com/SaXz2)
 
 #### Formatting and Editing
 
@@ -77,8 +77,8 @@ Plugins that integrate Orca Note with other applications and services.
 Plugins for visualizing data, graphs, and relationships.
 
 - **[Dockpanel](https://github.com/cordinGH/orca-dockpanel-plugin)** - Allows detaching a panel to create a "floating window"-like experience. [@cordinGH](https://github.com/cordinGH)
-- **[Tabsman](https://github.com/cordinGH/orca-tabsman-plugin)** - Adds a tab bar to the left sidebar. [@cordinGH](https://github.com/cordinGH)
 - **[Tabs](https://github.com/SaXz2/orca-tabs-plugin)** - Tab display plugin. [@SaXz2](https://github.com/SaXz2)
+- **[Tabsman](https://github.com/cordinGH/orca-tabsman-plugin)** - Adds a tab bar to the left sidebar. [@cordinGH](https://github.com/cordinGH)
 - **[Tana Tag Color](https://github.com/SaXz2/orca-tana-tag-color-plugin)** - Applies Tana-style colors and icons to blocks based on their first tag. [@SaXz2](https://github.com/SaXz2)
 
 #### Development Tools

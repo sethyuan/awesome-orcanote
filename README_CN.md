@@ -34,21 +34,21 @@
 
 提升您的生产力和工作流程的插件。
 
-- **[恐龙工具箱](https://github.com/hqweay/orca-hqweay-go)** - 提供：中文排版一键格式化；行内样式清理；VoiceNotes 同步；CSV、Markdown 导入…… [@hqweay](https://github.com/hqweay)
 - **[Flash Cards](https://github.com/Samuelxiaozhuofeng/orca-srs-plugin)** - 为 Orca Note 提供的间隔复习（SRS）插件。 [@Samuelxiaozhuofeng](https://github.com/Samuelxiaozhuofeng)
 - **[Random Walk](https://github.com/sethyuan/orca-random-walk)** - 帮助你回顾/复习笔记的插件（随机漫步复盘）。 [@sethyuan](https://github.com/sethyuan)
 - **[Simple Task](https://github.com/sethyuan/orca-simple-task)** - 帮助你使用 Orca Note 的标签系统快速创建任务的插件。 [@sethyuan](https://github.com/sethyuan)
 - **[Snippets](https://github.com/SaXz2/orca-snippets-plugin)** - JS 和 CSS 代码片段管理插件。 [@SaXz2](https://github.com/SaXz2)
 - **[Today](https://github.com/SaXz2/orca-today-plugins)** - 添加 Today 标签的笔记会自动置顶到当天日记的引用列表。 [@SaXz2](https://github.com/SaXz2)
+- **[恐龙工具箱](https://github.com/hqweay/orca-hqweay-go)** - 提供：中文排版一键格式化；行内样式清理；VoiceNotes 同步；CSV、Markdown 导入…… [@hqweay](https://github.com/hqweay)
 
 #### 笔记管理
 
 用于组织、搜索和管理笔记的插件。
 
-- **[Linker](https://github.com/sethyuan/orca-plugin-linker)** - 帮助将大型资源放在 Orca Note 外管理，并创建虚拟路径以引用这些资源的插件。 [@sethyuan](https://github.com/sethyuan)
-- **[Folder](https://github.com/SaXz2/orca-folder-plugin)** - 文档树插件。 [@SaXz2](https://github.com/SaXz2)
-- **[Page Display](https://github.com/SaXz2/orca-page-display-plugins)** - 页面空间显示插件，提供直观的页面导航和空间管理功能。⚠️ 未完成品 [@SaXz2](https://github.com/SaXz2)
 - **[EasyMotion](https://github.com/SaXz2/orca-EasyMotion-plugin)** - 类似 Vim 的快速光标跳转导航插件，支持中文、拼音、英文混合搜索。 [@SaXz2](https://github.com/SaXz2)
+- **[Folder](https://github.com/SaXz2/orca-folder-plugin)** - 文档树插件。 [@SaXz2](https://github.com/SaXz2)
+- **[Linker](https://github.com/sethyuan/orca-plugin-linker)** - 帮助将大型资源放在 Orca Note 外管理，并创建虚拟路径以引用这些资源的插件。 [@sethyuan](https://github.com/sethyuan)
+- **[Page Display](https://github.com/SaXz2/orca-page-display-plugins)** - 页面空间显示插件，提供直观的页面导航和空间管理功能。⚠️ 未完成品 [@SaXz2](https://github.com/SaXz2)
 
 #### 格式化与编辑
 
@@ -77,8 +77,8 @@
 用于可视化数据、图表和关系的插件。
 
 - **[Dockpanel](https://github.com/cordinGH/orca-dockpanel-plugin)** - 允许将一个面板脱离出来，形成类似于「小窗」的体验。 [@cordinGH](https://github.com/cordinGH)
-- **[Tabsman](https://github.com/cordinGH/orca-tabsman-plugin)** - 在左侧边栏追加一个标签页栏。 [@cordinGH](https://github.com/cordinGH)
 - **[Tabs](https://github.com/SaXz2/orca-tabs-plugin)** - 标签页显示插件。 [@SaXz2](https://github.com/SaXz2)
+- **[Tabsman](https://github.com/cordinGH/orca-tabsman-plugin)** - 在左侧边栏追加一个标签页栏。 [@cordinGH](https://github.com/cordinGH)
 - **[Tana Tag Color](https://github.com/SaXz2/orca-tana-tag-color-plugin)** - 仿照 Tana 风格，使用第一个标签为块的无序点应用颜色和图标。 [@SaXz2](https://github.com/SaXz2)
 
 #### 开发工具
