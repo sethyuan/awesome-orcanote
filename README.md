@@ -39,6 +39,7 @@ Plugins that enhance your productivity and workflow.
 - **[Random Walk](https://github.com/sethyuan/orca-random-walk)** - A plugin to help you recap/review notes (random-walk review). [@sethyuan](https://github.com/sethyuan)
 - **[Simple Task](https://github.com/sethyuan/orca-simple-task)** - A plugin that helps you quickly create tasks using Orca Note's tag system. [@sethyuan](https://github.com/sethyuan)
 - **[Snippets](https://github.com/SaXz2/orca-snippets-plugin)** - JS and CSS code snippets management plugin. [@SaXz2](https://github.com/SaXz2)
+- **[Task Confetti](https://github.com/sethyuan/task-confetti)** - Celebrates task completion with confetti. [@sethyuan](https://github.com/sethyuan)
 - **[Today](https://github.com/SaXz2/orca-today-plugins)** - Automatically pins notes with the Today tag to the top of the current day's journal reference list. [@SaXz2](https://github.com/SaXz2)
 
 #### Note Management
