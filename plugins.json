@@ -13,7 +13,8 @@
     "translations": {
       "zh": {
         "name": "随机漫步",
-        "description": "一个帮助你回顾/复习笔记的插件（随机漫步复习）。"
+        "description": "一个帮助你回顾/复习笔记的插件（随机漫步复习）。",
+        "category": "效率工具"
       }
     }
   },
@@ -30,7 +31,8 @@
     "zip": "https://github.com/sethyuan/task-confetti/releases/download/v0.1.1/task-confetti-v0.1.1.zip",
     "translations": {
       "zh": {
-        "description": "任务完成时播放五彩纸屑特效。"
+        "description": "任务完成时播放五彩纸屑特效。",
+        "category": "效率工具"
       }
     }
   },
