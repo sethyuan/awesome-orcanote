@@ -20,6 +20,25 @@
   },
   {
     "author": "cordinGH",
+    "id": "dockpanel",
+    "name": "Dockpanel",
+    "description": "Allows detaching a panel to create a \"floating window\"-like experience.",
+    "category": "Visualization",
+    "icon_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" width=\"64\" height=\"64\"><defs><mask id=\"arrow-cutout\"><rect width=\"256\" height=\"256\" fill=\"white\"/><path d=\"M 120 181 C 140 196, 200 200, 212 146\" fill=\"none\" stroke=\"black\" stroke-width=\"40\" stroke-linecap=\"round\"/></mask></defs><rect x=\"10\" y=\"85\" width=\"160\" height=\"160\" rx=\"24\" fill=\"#2C3E50\" mask=\"url(#arrow-cutout)\"/><path d=\"M 120 181 C 130 196, 200 200, 212 156\" fill=\"none\" stroke=\"#2C3E50\" stroke-width=\"20\" stroke-linecap=\"round\"/><path d=\"M 188 154 L 236 154 L 212 122 Z\" fill=\"#2C3E50\" stroke=\"#2C3E50\" stroke-width=\"6\" stroke-linejoin=\"round\"/><rect x=\"182\" y=\"55\" width=\"60\" height=\"60\" rx=\"12\" fill=\"#2C3E50\"/></svg>",
+    "version": "2.3.5",
+    "updated": "2026-03-10T00:00:00Z",
+    "home": "https://github.com/cordinGH/orca-dockpanel-plugin",
+    "zip": "https://github.com/cordinGH/orca-dockpanel-plugin/releases/download/2.3.5/orca-dockpanel-plugin-2.3.5.zip",
+    "translations": {
+      "zh": {
+        "name": "Dockpanel",
+        "description": "允许将一个面板脱离出来，形成类似于「小窗」的体验。",
+        "category": "可视化"
+      }
+    }
+  },
+  {
+    "author": "cordinGH",
     "id": "tabsman",
     "name": "Tabsman",
     "description": "Adds a tab manager to the sidebar for building a tab list for each panel, supporting workspaces, drag-and-drop, pinning, and recently closed tabs.",
