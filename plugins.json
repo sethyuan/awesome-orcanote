@@ -20,6 +20,25 @@
   },
   {
     "author": "cordinGH",
+    "id": "tabsman",
+    "name": "Tabsman",
+    "description": "Adds a tab manager to the sidebar for building a tab list for each panel, supporting workspaces, drag-and-drop, pinning, and recently closed tabs.",
+    "category": "Visualization",
+    "icon_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"2\" ry=\"2\"/><line x1=\"9\" y1=\"8\" x2=\"15\" y2=\"8\"/><line x1=\"9\" y1=\"12\" x2=\"15\" y2=\"12\"/><line x1=\"9\" y1=\"16\" x2=\"15\" y2=\"16\"/></svg>",
+    "version": "2.9.0",
+    "updated": "2026-03-10T12:00:00Z",
+    "home": "https://github.com/cordinGH/orca-tabsman-plugin",
+    "zip": "https://github.com/cordinGH/orca-tabsman-plugin/releases/download/2.9.0/orca-tabsman-plugin-2.9.0.zip",
+    "translations": {
+      "zh": {
+        "name": "Tabsman",
+        "description": "在侧边栏为每个面板构建标签页列表，支持工作区、置顶、拖拽及最近关闭等功能。",
+        "category": "可视化"
+      }
+    }
+  },
+  {
+    "author": "cordinGH",
     "id": "tune-theme",
     "name": "tune theme",
     "description": "A style plugin that redesigns block styles, active on enable.",
