@@ -63,10 +63,10 @@
     "description": "A style plugin that redesigns block styles, active on enable.",
     "category": "Theme",
     "icon_svg": "<svg width=\"64\" height=\"64\" viewBox=\"0 0 64 64\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"64\" height=\"64\" rx=\"14\" fill=\"#F0F2F5\" /><g><circle cx=\"37\" cy=\"32\" r=\"16\" fill=\"none\" stroke=\"#9FA7B3\" stroke-width=\"2\" /><circle cx=\"27\" cy=\"32\" r=\"16\" fill=\"none\" stroke=\"#646F7C\" stroke-width=\"2\" /><circle cx=\"32\" cy=\"32\" r=\"1.5\" fill=\"#4F5964\" /></g></svg>",
-    "version": "3.1.4",
-    "updated": "2026-04-14T18:00:00Z",
+    "version": "3.2.0",
+    "updated": "2026-04-17T13:00:00Z",
     "home": "https://github.com/cordinGH/orca-tune-theme",
-    "zip": "https://github.com/cordinGH/orca-tune-theme/releases/download/v3.1.4/orca-tune-theme-v3.1.4.zip",
+    "zip": "https://github.com/cordinGH/orca-tune-theme/releases/download/v3.2.0/orca-tune-theme-v3.2.0.zip",
     "translations": {
       "zh": {
         "name": "Tune 主题",
