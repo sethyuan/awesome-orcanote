@@ -44,10 +44,10 @@
     "description": "Adds a tab manager to the sidebar for building a tab list for each panel, supporting tab-preview, workspaces, drag-and-drop, pinning, favoriting, and recently closed tabs.",
     "category": "Visualization",
     "icon_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"2\" ry=\"2\"/><line x1=\"9\" y1=\"8\" x2=\"15\" y2=\"8\"/><line x1=\"9\" y1=\"12\" x2=\"15\" y2=\"12\"/><line x1=\"9\" y1=\"16\" x2=\"15\" y2=\"16\"/></svg>",
-    "version": "3.4.1",
-    "updated": "2026-04-27T01:00:00Z",
+    "version": "3.4.2",
+    "updated": "2026-04-27T11:00:00Z",
     "home": "https://github.com/cordinGH/orca-tabsman-plugin",
-    "zip": "https://github.com/cordinGH/orca-tabsman-plugin/releases/download/v3.4.1/orca-tabsman-plugin-v3.4.1.zip",
+    "zip": "https://github.com/cordinGH/orca-tabsman-plugin/releases/download/v3.4.2/orca-tabsman-plugin-v3.4.2.zip",
     "translations": {
       "zh": {
         "name": "Tabsman",
