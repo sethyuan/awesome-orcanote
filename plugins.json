@@ -267,6 +267,24 @@
   },
   {
     "author": "sethyuan",
+    "id": "clean-editor",
+    "name": "Clean Editor",
+    "description": "An Orca Note plugin that hides query controls to make the interface cleaner.",
+    "category": "Visualization",
+    "icon_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 64 64\" width=\"64\" height=\"64\"><rect x=\"8\" y=\"8\" width=\"48\" height=\"48\" rx=\"6\" fill=\"#ffffff\" stroke=\"#2d2d2d\" stroke-width=\"2.5\"/><line x1=\"8\" y1=\"20\" x2=\"56\" y2=\"20\" stroke=\"#2d2d2d\" stroke-width=\"2\"/><circle cx=\"15\" cy=\"14\" r=\"2\" fill=\"#2d2d2d\"/><circle cx=\"22\" cy=\"14\" r=\"2\" fill=\"#2d2d2d\"/><circle cx=\"29\" cy=\"14\" r=\"2\" fill=\"#2d2d2d\"/><line x1=\"16\" y1=\"28\" x2=\"48\" y2=\"28\" stroke=\"#2d2d2d\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"16\" y1=\"34\" x2=\"42\" y2=\"34\" stroke=\"#2d2d2d\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"16\" y1=\"40\" x2=\"48\" y2=\"40\" stroke=\"#2d2d2d\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"16\" y1=\"46\" x2=\"36\" y2=\"46\" stroke=\"#2d2d2d\" stroke-width=\"2\" stroke-linecap=\"round\"/><g transform=\"translate(44, 44)\"><path d=\"M-10,-3 C-5,4 5,4 10,-3\" fill=\"none\" stroke=\"#e06050\" stroke-width=\"2.5\" stroke-linecap=\"round\"/><line x1=\"-7\" y1=\"1\" x2=\"-9\" y2=\"6\" stroke=\"#e06050\" stroke-width=\"2.5\" stroke-linecap=\"round\"/><line x1=\"-3\" y1=\"3.5\" x2=\"-3\" y2=\"8\" stroke=\"#e06050\" stroke-width=\"2.5\" stroke-linecap=\"round\"/><line x1=\"3\" y1=\"3.5\" x2=\"3\" y2=\"8\" stroke=\"#e06050\" stroke-width=\"2.5\" stroke-linecap=\"round\"/><line x1=\"7\" y1=\"1\" x2=\"9\" y2=\"6\" stroke=\"#e06050\" stroke-width=\"2.5\" stroke-linecap=\"round\"/></g></svg>",
+    "version": "0.1.0",
+    "updated": "2026-06-08T05:57:00Z",
+    "home": "https://github.com/sethyuan/orca-plugin-clean-editor",
+    "zip": "https://github.com/sethyuan/orca-plugin-clean-editor/releases/download/v0.1.0/clean-editor-v0.1.0.zip",
+    "translations": {
+      "zh": {
+        "description": "隐藏查询界面以使编辑器更简洁。",
+        "category": "可视化"
+      }
+    }
+  },
+  {
+    "author": "sethyuan",
     "id": "dinox-sync",
     "name": "Dinox Sync",
     "description": "Syncs Dinox notes into Orca Note (sync into journals).",
