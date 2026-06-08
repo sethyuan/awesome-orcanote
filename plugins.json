@@ -77,6 +77,25 @@
   },
   {
     "author": "SaXz2",
+    "id": "bullet-theme",
+    "name": "Bullet Theme",
+    "description": "A clean Orca Note theme with refined editor, sidebar, query, quote, code, tag, search, and mirrored block styles.",
+    "category": "Theme",
+    "icon_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 64 64\" width=\"64\" height=\"64\" role=\"img\" aria-label=\"Bullet theme icon\"><rect width=\"64\" height=\"64\" rx=\"14\" fill=\"#f7f1e7\"/><circle cx=\"19\" cy=\"20\" r=\"4\" fill=\"#2f6f73\"/><circle cx=\"19\" cy=\"32\" r=\"4\" fill=\"#c7604c\"/><circle cx=\"19\" cy=\"44\" r=\"4\" fill=\"#5b67a6\"/><path d=\"M30 18h18M30 30h14M30 42h20\" fill=\"none\" stroke=\"#2f3340\" stroke-width=\"4\" stroke-linecap=\"round\"/><path d=\"M11 10h42a4 4 0 0 1 4 4v36a4 4 0 0 1-4 4H11a4 4 0 0 1-4-4V14a4 4 0 0 1 4-4Z\" fill=\"none\" stroke=\"#2f3340\" stroke-width=\"2\" opacity=\".12\"/></svg>",
+    "version": "0.1.0",
+    "updated": "2026-06-08T05:30:00Z",
+    "home": "https://github.com/SaXz2/orca-bullet-theme",
+    "zip": "https://github.com/SaXz2/orca-bullet-theme/releases/download/v0.1.0/orca-bullet-theme-v0.1.0.zip",
+    "translations": {
+      "zh": {
+        "name": "Bullet 主题",
+        "description": "一款为 Orca Note 设计的清爽主题，优化编辑器、侧边栏、查询块、引用块、代码块、标签、搜索和镜像块样式。",
+        "category": "主题"
+      }
+    }
+  },
+  {
+    "author": "SaXz2",
     "id": "easymotion",
     "name": "EasyMotion",
     "description": "A Vim-style EasyMotion quick navigation plugin for Orca Note, supporting Chinese, Pinyin, and English mixed search.",
