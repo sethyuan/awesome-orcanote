@@ -76,6 +76,25 @@
     }
   },
   {
+    "author": "Samuelxiaozhuofeng",
+    "id": "aiichat",
+    "name": "AI Chat",
+    "description": "An AI assistant plugin for Orca Note with multi-model chat, note tools, skills, memory, web search, and file understanding.",
+    "category": "Productivity",
+    "icon_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" width=\"80\" height=\"80\" role=\"img\" aria-label=\"AI Chat icon\"><rect width=\"80\" height=\"80\" rx=\"18\" fill=\"#151A22\"/><path d=\"M18 24c0-5.5 4.5-10 10-10h24c5.5 0 10 4.5 10 10v18c0 5.5-4.5 10-10 10H39.2L27.6 62c-1.3 1.1-3.2.2-3.2-1.5V52C20.7 50.6 18 47 18 42V24Z\" fill=\"#4F8CFF\"/><path d=\"M29 29h22M29 39h15\" fill=\"none\" stroke=\"#FFFFFF\" stroke-width=\"5\" stroke-linecap=\"round\"/><circle cx=\"58\" cy=\"56\" r=\"10\" fill=\"#39D98A\"/><path d=\"M58 50v12M52 56h12\" fill=\"none\" stroke=\"#102018\" stroke-width=\"3.2\" stroke-linecap=\"round\"/></svg>",
+    "version": "2.0.1",
+    "updated": "2026-06-14T06:52:09Z",
+    "home": "https://github.com/Samuelxiaozhuofeng/AI-orca-plugin",
+    "zip": "https://github.com/Samuelxiaozhuofeng/AI-orca-plugin/releases/download/v2.0.1/aiichat-v2.0.1.zip",
+    "translations": {
+      "zh": {
+        "name": "AI Chat",
+        "description": "为虎鲸笔记提供多模型 AI 对话、笔记工具、技能、记忆、联网搜索和文件理解能力的智能助手插件。",
+        "category": "效率工具"
+      }
+    }
+  },
+  {
     "author": "SaXz2",
     "id": "bullet-theme",
     "name": "Bullet Theme",
