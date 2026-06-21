@@ -215,10 +215,10 @@
     "description": "Applies Tana-style colors and icons to tagged blocks in Orca Note, with block-level color overrides and real-time updates.",
     "category": "Visualization",
     "icon_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><circle cx=\"50\" cy=\"50\" r=\"45\" fill=\"#f8f9fa\" stroke=\"#dee2e6\" stroke-width=\"2\"/><g transform=\"translate(50, 50)\"><path d=\"M -20 -15 L 15 -15 L 20 0 L 15 15 L -20 15 Z\" fill=\"#6366f1\" stroke=\"#4f46e5\" stroke-width=\"2\"/><circle cx=\"-12\" cy=\"0\" r=\"3\" fill=\"#f8f9fa\"/><circle cx=\"5\" cy=\"-5\" r=\"4\" fill=\"#f59e0b\" opacity=\"0.9\"/><circle cx=\"8\" cy=\"3\" r=\"4\" fill=\"#10b981\" opacity=\"0.9\"/><circle cx=\"2\" cy=\"8\" r=\"4\" fill=\"#ef4444\" opacity=\"0.9\"/></g><defs><radialGradient id=\"shine\" cx=\"30%\" cy=\"30%\"><stop offset=\"0%\" style=\"stop-color:#ffffff;stop-opacity:0.3\"/><stop offset=\"100%\" style=\"stop-color:#ffffff;stop-opacity:0\"/></radialGradient></defs><circle cx=\"50\" cy=\"50\" r=\"45\" fill=\"url(#shine)\" pointer-events=\"none\"/></svg>",
-    "version": "1.2.6",
-    "updated": "2026-06-08T00:00:00Z",
+    "version": "1.2.7",
+    "updated": "2026-06-21T00:00:00Z",
     "home": "https://github.com/SaXz2/orca-tana-tag-color-plugin",
-    "zip": "https://github.com/SaXz2/orca-tana-tag-color-plugin/releases/download/v1.2.6/orca-tana-tag-color-plugin-v1.2.6.zip",
+    "zip": "https://github.com/SaXz2/orca-tana-tag-color-plugin/releases/download/v1.2.7/orca-tana-tag-color-plugin-v1.2.7.zip",
     "translations": {
       "zh": {
         "name": "Tana 标签颜色",
