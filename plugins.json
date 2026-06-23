@@ -510,6 +510,25 @@
     }
   },
   {
+    "author": "leommjj",
+    "id": "mcard",
+    "name": "Mcard",
+    "description": "A flomo-inspired card-style note-taking plugin for Orca Note, with tag management, parent-child card linking, and daily review.",
+    "category": "Productivity",
+    "icon_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 64 64\" width=\"64\" height=\"64\"><rect width=\"64\" height=\"64\" rx=\"14\" fill=\"#4A90D9\"/><rect x=\"12\" y=\"10\" width=\"40\" height=\"44\" rx=\"6\" fill=\"#fff\" opacity=\"0.95\"/><rect x=\"18\" y=\"18\" width=\"28\" height=\"3\" rx=\"1.5\" fill=\"#4A90D9\" opacity=\"0.7\"/><rect x=\"18\" y=\"26\" width=\"20\" height=\"2\" rx=\"1\" fill=\"#8AB4E0\" opacity=\"0.6\"/><rect x=\"18\" y=\"32\" width=\"24\" height=\"2\" rx=\"1\" fill=\"#8AB4E0\" opacity=\"0.6\"/><rect x=\"18\" y=\"38\" width=\"16\" height=\"2\" rx=\"1\" fill=\"#8AB4E0\" opacity=\"0.6\"/></svg>",
+    "version": "1.0.0",
+    "updated": "2026-06-23T10:00:00Z",
+    "home": "https://github.com/leommjj/orca-plugin-mcard",
+    "zip": "https://github.com/leommjj/orca-plugin-mcard/releases/download/v1.0.0/orca-plugin-mcard-v1.0.0.zip",
+    "translations": {
+      "zh": {
+        "name": "Mcard",
+        "description": "受 flomo 启发的虎鲸笔记卡片式记录插件，支持标签管理、父子卡片关联和每日回顾。",
+        "category": "效率工具"
+      }
+    }
+  },
+  {
     "author": "lioyeah",
     "id": "tokyo-night-orca-theme",
     "name": "tokyo night theme for orca",
