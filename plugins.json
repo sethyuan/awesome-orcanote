@@ -19,6 +19,25 @@
     }
   },
   {
+    "author": "Peng52050",
+    "id": "orca-import-export",
+    "name": "Orca Import Export",
+    "description": "A multi-format import/export plugin for note migration with highlight syntax conversion support",
+    "category": "Productivity",
+    "icon_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 64 64\" width=\"64\" height=\"64\"><rect width=\"64\" height=\"64\" rx=\"14\" fill=\"#3370ff\"/><path d=\"M20 28l12-12 12 12\" fill=\"none\" stroke=\"#fff\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M32 16v24\" fill=\"none\" stroke=\"#fff\" stroke-width=\"4\" stroke-linecap=\"round\"/><path d=\"M20 36l12 12 12-12\" fill=\"none\" stroke=\"#fff\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M32 48V24\" fill=\"none\" stroke=\"#fff\" stroke-width=\"4\" stroke-linecap=\"round\"/></svg>",
+    "version": "2.4.6",
+    "updated": "2026-07-08T16:57:45Z",
+    "home": "https://github.com/Peng52050/orca-import-export",
+    "zip": "https://github.com/Peng52050/orca-import-export/releases/download/v2.4.6/orca-import-export_v2.4.6_20260708_165745.zip",
+    "translations": {
+      "zh": {
+        "name": "Orca 导入导出",
+        "description": "让笔记迁移更简单 - 多格式导入导出插件，支持高亮语法转换",
+        "category": "效率工具"
+      }
+    }
+  },
+  {
     "author": "cordinGH",
     "id": "dockpanel",
     "name": "Dockpanel",
