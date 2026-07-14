@@ -38,6 +38,25 @@
     }
   },
   {
+    "author": "Peng52050",
+    "id": "orca-plugin-picgo",
+    "name": "PicGo Image Bed",
+    "description": "Upload images to 11+ image hosting services with clipboard, file picker, drag-and-drop, batch local upload, PicGo App integration, and AWS S3 support.",
+    "category": "Productivity",
+    "icon_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 64 64\"><defs><linearGradient id=\"g\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop offset=\"0%\" stop-color=\"#2563eb\"/><stop offset=\"100%\" stop-color=\"#7c3aed\"/></linearGradient></defs><rect width=\"64\" height=\"64\" rx=\"14\" fill=\"url(#g)\"/><ellipse cx=\"32\" cy=\"46\" rx=\"18\" ry=\"9\" fill=\"#cbd5e1\"/><ellipse cx=\"22\" cy=\"44\" rx=\"8\" ry=\"6\" fill=\"#f1f5f9\"/><ellipse cx=\"42\" cy=\"44\" rx=\"8\" ry=\"6\" fill=\"#f1f5f9\"/><path d=\"M20 38c4-10 14-12 18-8 2 2 2 6 0 10-2 2-6 2-10 0-4-2-8 0-8-2z\" fill=\"#0f172a\"/><ellipse cx=\"34\" cy=\"30\" rx=\"3\" ry=\"1.5\" fill=\"#fff\"/><circle cx=\"36\" cy=\"29\" r=\".7\" fill=\"#0f172a\"/></svg>",
+    "version": "0.9.7",
+    "updated": "2026-07-14T15:25:00Z",
+    "home": "https://github.com/Peng52050/orca-plugin-picgo",
+    "zip": "https://github.com/Peng52050/orca-plugin-picgo/releases/download/v0.9.7/orca-plugin-picgo-v0.9.7.zip",
+    "translations": {
+      "zh": {
+        "name": "PicGo 图床插件",
+        "description": "支持上传图片到 11+ 图床服务，提供剪贴板上传、文件选择、拖拽上传、一键批量上传本地图片、PicGo App 委托上传及 AWS S3 支持。",
+        "category": "效率工具"
+      }
+    }
+  },
+  {
     "author": "cordinGH",
     "id": "dockpanel",
     "name": "Dockpanel",
