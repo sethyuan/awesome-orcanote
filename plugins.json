@@ -158,10 +158,10 @@
     "description": "A spaced repetition and incremental reading plugin for Orca Note with FSRS scheduling, multiple card types, AI card generation, EPUB/web import, and reading workflows.",
     "category": "Productivity",
     "icon_png": "iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAIAAAAlC+aJAAAA40lEQVR4nO3awRHDMAhEUXfgY3pIBWnefeWYVGAvSLBI7Axn+b/Rzeg4X++l56AXCMAuEIBdIAC7oDrgc31XAvxzkSkHALsjJKMAd/oshh8wJX2c4QRMr3cbPICgep/BDAitdxhsgIR6q8EASKs3GVBAcj1ugACUetDQAECsRwy7A+j1jwYBKgPo3YhBAAEE2BVALwYN+96AAAIIsD6gjuGmUIDigAqG+7wGAK7hsa0HgGVAwtr8nU424EnNNjQJBmtMyy1lkMGX0XhTP4Ux/mm9VgFIoefrxRZ7BGCPAOxZHvADvnxNjjg5nvMAAAAASUVORK5CYII=",
-    "version": "1.0.3",
-    "updated": "2026-07-22T03:33:57Z",
+    "version": "1.0.4",
+    "updated": "2026-07-22T04:19:48Z",
     "home": "https://github.com/Samuelxiaozhuofeng/orca-srs-plugin",
-    "zip": "https://github.com/Samuelxiaozhuofeng/orca-srs-plugin/releases/download/v1.0.3/orca-srs-1.0.3.zip",
+    "zip": "https://github.com/Samuelxiaozhuofeng/orca-srs-plugin/releases/download/v1.0.4/orca-srs-1.0.4.zip",
     "translations": {
       "zh": {
         "name": "虎鲸标记",
