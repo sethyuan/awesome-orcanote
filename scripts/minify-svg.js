@@ -9,6 +9,12 @@ if (!filePath) {
 }
 
 const absolutePath = path.resolve(filePath);
+const safeRoot = path.resolve(process.cwd());
+
+if (!absolutePath.startsWith(safeRoot + path.sep) && absolutePath !== safeRoot) {
+  console.error("Error: File path must be within the current working directory.");
+  process.exit(1);
+}
 
 if (!fs.existsSync(absolutePath)) {
   console.error(`File does not exist: ${absolutePath}`);
