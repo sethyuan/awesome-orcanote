@@ -861,10 +861,10 @@
     "description": "Add a new claude-style theme to orca note",
     "category": "Theme",
     "icon_svg": "<svg fill=\"#000000\" width=\"800px\" height=\"800px\" viewBox=\"0 0 32 32\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\"><title>paper</title><path d=\"M0 32l4-4 4 4 4-4 4 4 4-4 4 4 4-4 4 4v-25.984q0-2.496-1.76-4.256t-4.224-1.76h-20q-2.496 0-4.256 1.76t-1.76 4.256v25.984zM4 22.016v-16q0-0.832 0.576-1.408t1.44-0.608h20q0.8 0 1.408 0.608t0.576 1.408v16l-4 4-4-4-4 4-4-4-4 4zM8 18.016h16v-2.016h-16v2.016zM8 14.016h16v-2.016h-16v2.016zM8 10.016h16v-2.016h-16v2.016z\"></path></svg>",
-    "version": "1.0.1",
-    "updated": "2026-08-02T20:19:00Z",
+    "version": "1.2.0",
+    "updated": "2026-08-06T00:19:00Z",
     "home": "https://github.com/tdafricaaaaaa/orca-claude-theme",
-    "zip": "https://github.com/tdafricaaaaaa/orca-claude-theme/releases/download/a/orca-claude-theme.zip",
+    "zip": "https://github.com/tdafricaaaaaa/orca-claude-theme/releases/download/1.2.0/orca-claude-theme.zip",
     "translations": {
       "zh": {
         "name": "类claude主题",
