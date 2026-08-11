@@ -1005,7 +1005,7 @@
       }
     },
     "icon_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"128\" height=\"128\" viewBox=\"0 0 128 128\"><rect x=\"8\" y=\"8\" width=\"112\" height=\"112\" rx=\"28\" fill=\"#059669\"/><path d=\"M36 44 L16 64 L36 84\" stroke=\"#ffffff\" stroke-width=\"12\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"/><path d=\"M92 44 L112 64 L92 84\" stroke=\"#ffffff\" stroke-width=\"12\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"/><path d=\"M82 30 L46 98\" stroke=\"#ffffff\" stroke-width=\"12\" stroke-linecap=\"round\" fill=\"none\"/></svg>"
-  }
+  },
   {
       "id": "lets-orca-neo",
       "author": "Eon-Wen",
