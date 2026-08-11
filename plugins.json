@@ -1025,3 +1025,4 @@
       },
     "icon_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 128 128\" width=\"128\" height=\"128\"><defs><linearGradient id=\"neoBg\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop offset=\"0\" stop-color=\"#7d92ea\"/><stop offset=\"1\" stop-color=\"#5a6fd8\"/></linearGradient></defs><rect x=\"4\" y=\"4\" width=\"120\" height=\"120\" rx=\"30\" fill=\"url(#neoBg)\"/><path d=\"M42 92V36l44 56V36\" fill=\"none\" stroke=\"#ffffff\" stroke-width=\"11\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"86\" cy=\"92\" r=\"7\" fill=\"#ffffff\"/></svg>"
   }
+ ] 
