@@ -684,27 +684,6 @@
     }
   },
   {
-    "author": "sethyuan",
-    "id": "weeky",
-    "name": "Weeky",
-    "description": "Turn week numbers into pages. The week numbers in the sidebar's calendar are now clickable.",
-    "category": "Note Management",
-    "icon_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 64 64\"><defs><linearGradient id=\"band\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#5b7cfa\"/><stop offset=\"1\" stop-color=\"#3f56e8\"/></linearGradient></defs><rect x=\"6\" y=\"8\" width=\"52\" height=\"48\" rx=\"11\" fill=\"#ffffff\" stroke=\"#2b2f36\" stroke-width=\"3\"/><circle cx=\"21\" cy=\"8\" r=\"3.5\" fill=\"#ffffff\" stroke=\"#2b2f36\" stroke-width=\"3\"/><circle cx=\"43\" cy=\"8\" r=\"3.5\" fill=\"#ffffff\" stroke=\"#2b2f36\" stroke-width=\"3\"/><rect x=\"11\" y=\"15\" width=\"42\" height=\"7\" rx=\"3.5\" fill=\"#e2e7ee\"/><g fill=\"#e2e7ee\"><rect x=\"11\" y=\"25\" width=\"4.5\" height=\"5\" rx=\"1\"/><rect x=\"17.25\" y=\"25\" width=\"4.5\" height=\"5\" rx=\"1\"/><rect x=\"23.5\" y=\"25\" width=\"4.5\" height=\"5\" rx=\"1\"/><rect x=\"29.75\" y=\"25\" width=\"4.5\" height=\"5\" rx=\"1\"/><rect x=\"36\" y=\"25\" width=\"4.5\" height=\"5\" rx=\"1\"/><rect x=\"42.25\" y=\"25\" width=\"4.5\" height=\"5\" rx=\"1\"/><rect x=\"48.5\" y=\"25\" width=\"4.5\" height=\"5\" rx=\"1\"/></g><rect x=\"11\" y=\"33\" width=\"42\" height=\"13\" rx=\"6.5\" fill=\"url(#band)\"/><text x=\"18\" y=\"39.5\" font-family=\"system-ui, -apple-system, 'Segoe UI', sans-serif\" font-size=\"12\" font-weight=\"800\" fill=\"#ffffff\" dominant-baseline=\"central\">W12</text><path d=\"M4 4l7.07 17 2.51-7.39L21 11.07z\" fill=\"#ffffff\" transform=\"translate(40,34.8) scale(0.55)\"/><g fill=\"#e2e7ee\"><rect x=\"11\" y=\"50\" width=\"4.5\" height=\"5\" rx=\"1\"/><rect x=\"17.25\" y=\"50\" width=\"4.5\" height=\"5\" rx=\"1\"/><rect x=\"23.5\" y=\"50\" width=\"4.5\" height=\"5\" rx=\"1\"/><rect x=\"29.75\" y=\"50\" width=\"4.5\" height=\"5\" rx=\"1\"/><rect x=\"36\" y=\"50\" width=\"4.5\" height=\"5\" rx=\"1\"/><rect x=\"42.25\" y=\"50\" width=\"4.5\" height=\"5\" rx=\"1\"/><rect x=\"48.5\" y=\"50\" width=\"4.5\" height=\"5\" rx=\"1\"/></g></svg>",
-    "version": "1.0.0",
-    "updated": "2026-08-13T09:30:00Z",
-    "home": "https://github.com/sethyuan/orca-plugin-weeky",
-    "zip": "https://github.com/sethyuan/orca-plugin-weeky/releases/download/v1.0.0/weeky-v1.0.0.zip",
-    "donate": "https://ko-fi.com/R5R213X8MC",
-    "translations": {
-      "zh": {
-        "name": "小周",
-        "description": "让每一个周数都单独成页。可以点击侧边栏日历中的周数了。",
-        "category": "笔记管理",
-        "donate": "https://github.com/sethyuan/orca-plugin-focus-mode/raw/refs/heads/main/donate.avif"
-      }
-    }
-  },
-  {
     "author": "leommjj",
     "id": "mcard",
     "name": "Mcard",
@@ -1046,4 +1025,25 @@
     },
     "icon_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 128 128\" width=\"128\" height=\"128\"><defs><linearGradient id=\"neoBg\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop offset=\"0\" stop-color=\"#7d92ea\"/><stop offset=\"1\" stop-color=\"#5a6fd8\"/></linearGradient></defs><rect x=\"4\" y=\"4\" width=\"120\" height=\"120\" rx=\"30\" fill=\"url(#neoBg)\"/><path d=\"M42 92V36l44 56V36\" fill=\"none\" stroke=\"#ffffff\" stroke-width=\"11\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"86\" cy=\"92\" r=\"7\" fill=\"#ffffff\"/></svg>"
   }
+  {
+    "id": "better-motion",
+    "author": "tdafricaaaaaa",
+    "name": "better motion",
+    "description": "a plugin with graceful transition animation.",
+    "category": "Theme",
+    "version": "1.0.0",
+    "updated": "2026-08-13T17:38:00Z",
+    "home": "https://github.com/tdafricaaaaaa/better-motion",
+    "zip": "https://github.com/tdafricaaaaaa/better-motion/releases/download/1.0.0/orca-better-motion.zip",
+    "translations": {
+      "zh": {
+        "name": "更好的动画",
+        "description": "插件带来了优雅舒适的过渡动画",
+        "category": "主题"
+      }
+    },
+    "icon_svg": "icon_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"256\" height=\"256\" viewBox=\"0 0 256 256\" role=\"img\" aria-labelledby=\"title desc\"><title id=\"title\">Orca Better Motion</title><desc id=\"desc\">紫蓝渐变圆角方形中的三条错位动态线</desc><defs><linearGradient id=\"motion-gradient\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop offset=\"0\" stop-color=\"#6367f2\"/><stop offset=\"1\" stop-color=\"#a33fd7\"/></linearGradient></defs><rect width=\"256\" height=\"256\" rx=\"64\" fill=\"url(#motion-gradient)\"/><g fill=\"#fff\" fill-opacity=\"0.92\"><rect x=\"64\" y=\"80\" width=\"86\" height=\"16\" rx=\"8\"/><rect x=\"88\" y=\"120\" width=\"102\" height=\"16\" rx=\"8\"/><rect x=\"112\" y=\"160\" width=\"98\" height=\"16\" rx=\"8\"/></g></svg>"
+  }
+
 ]
+
