@@ -1006,24 +1006,23 @@
     },
     "icon_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"128\" height=\"128\" viewBox=\"0 0 128 128\"><rect x=\"8\" y=\"8\" width=\"112\" height=\"112\" rx=\"28\" fill=\"#059669\"/><path d=\"M36 44 L16 64 L36 84\" stroke=\"#ffffff\" stroke-width=\"12\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"/><path d=\"M92 44 L112 64 L92 84\" stroke=\"#ffffff\" stroke-width=\"12\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"/><path d=\"M82 30 L46 98\" stroke=\"#ffffff\" stroke-width=\"12\" stroke-linecap=\"round\" fill=\"none\"/></svg>"
  },
-  {
-      "id": "lets-orca-neo",
-      "author": "Eon-Wen",
-      "name": "Orcan Neo",
-      "description": "Visual theme adapted from open-source Neo theme of Siyuan Notes for Orca Note, clean reading style with original copyright noted.",
-      "category": "Theme",
-      "version": "2.0.0",
-      "updated": "2026-08-13TT13:07:00Z",
-      "home": "https://github.com/Eon-Wen/Orca-neo",
-      "zip": "https://github.com/Eon-Wen/Orca-neo/releases/download/v2.0.0/orca-neo-v2.0.0.zip",
-      "translations": {
-        "zh": {
-          "name": "Orca Neo主题",
-          "description": "为虎鲸笔记适配移植思源笔记开源Neo主题，阅读视觉风格清爽克制，已完整标注原项目版权来源。",
-          "category": "主题"
-        }
-      },
+    {
+    "id": "lets-orca-neo",
+    "author": "Eon-Wen",
+    "name": "Orca Neo",
+    "description": "Visual theme adapted from open-source Neo theme of Siyuan Notes for Orca Note, clean reading style with original copyright noted.",
+    "category": "Theme",
+    "version": "2.0.0",
+    "updated": "2026-08-13T13:07:00Z",
+    "home": "https://github.com/Eon-Wen/Orca-neo",
+    "zip": "https://github.com/Eon-Wen/Orca-neo/releases/download/v2.0.0/orca-neo-v2.0.0.zip",
+    "translations": {
+      "zh": {
+        "name": "Orca Neo主题",
+        "description": "为虎鲸笔记适配移植思源笔记开源Neo主题，阅读视觉风格清爽克制，已完整标注原项目版权来源。",
+        "category": "主题"
+      }
+    },
     "icon_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 128 128\" width=\"128\" height=\"128\"><defs><linearGradient id=\"neoBg\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop offset=\"0\" stop-color=\"#7d92ea\"/><stop offset=\"1\" stop-color=\"#5a6fd8\"/></linearGradient></defs><rect x=\"4\" y=\"4\" width=\"120\" height=\"120\" rx=\"30\" fill=\"url(#neoBg)\"/><path d=\"M42 92V36l44 56V36\" fill=\"none\" stroke=\"#ffffff\" stroke-width=\"11\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"86\" cy=\"92\" r=\"7\" fill=\"#ffffff\"/></svg>"
-  }
   },
   ]
