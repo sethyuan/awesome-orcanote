@@ -1012,10 +1012,10 @@
       "name": "Orcan Neo",
       "description": "Visual theme adapted from open-source Neo theme of Siyuan Notes for Orca Note, clean reading style with original copyright noted.",
       "category": "Theme",
-      "version": "1.0.0",
-      "updated": "2026-08-11T00:00:00Z",
+      "version": "2.0.0",
+      "updated": "2026-08-13TT13:07:00Z",
       "home": "https://github.com/Eon-Wen/Orca-neo",
-      "zip": "https://github.com/Eon-Wen/Orca-neo/releases/download/1.0.0/orca-neo.zip",
+      "zip": "https://github.com/Eon-Wen/Orca-neo/releases/download/v2.0.0/orca-neo-v2.0.0.zip",
       "translations": {
         "zh": {
           "name": "Orca Neo主题",
