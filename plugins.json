@@ -867,11 +867,13 @@
     "updated": "2026-08-28T16:17:17.293Z",
     "home": "https://github.com/hqweay/orca-hqweay-go",
     "zip": "https://github.com/hqweay/orca-hqweay-go/releases/download/v4.10.0/package.zip",
+    "donate": "https://raw.githubusercontent.com/hqweay/picbed/refs/heads/master/img/donate.jpeg",
     "translations": {
       "zh": {
         "name": "恐龙工具箱",
         "description": "一些快捷工具合集",
-        "category": "效率工具"
+        "category": "效率工具",
+        "donate": "https://raw.githubusercontent.com/hqweay/picbed/refs/heads/master/img/donate.jpeg"
       }
     }
   },
