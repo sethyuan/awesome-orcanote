@@ -1128,10 +1128,10 @@
     "name": "better motion",
     "description": "a plugin with graceful transition animation.",
     "category": "Theme",
-    "version": "1.0.0",
-    "updated": "2026-08-13T17:38:00Z",
+    "version": "1.1.0",
+    "updated": "2026-08-27T22:38:00Z",
     "home": "https://github.com/tdafricaaaaaa/better-motion",
-    "zip": "https://github.com/tdafricaaaaaa/better-motion/releases/download/1.0.0/orca-better-motion.zip",
+    "zip": "https://github.com/tdafricaaaaaa/better-motion/releases/download/1.1.0/orca-better-motion.zip",
     "translations": {
       "zh": {
         "name": "更好的动画",
