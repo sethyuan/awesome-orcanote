@@ -730,10 +730,10 @@
     "description": "Moments-style diary feed for Orca Note: timeline of #日记流 blocks, cover/avatar, tags, location, and deep edit in Orca journals.",
     "category": "Productivity",
     "icon_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 32 32\" width=\"32\" height=\"32\" role=\"img\" aria-label=\"Diary Flow\"><defs><linearGradient id=\"bg\" x1=\"6\" y1=\"2\" x2=\"26\" y2=\"30\" gradientUnits=\"userSpaceOnUse\"><stop offset=\"0\" stop-color=\"#F4FAFE\"/><stop offset=\"0.55\" stop-color=\"#A9D4EE\"/><stop offset=\"1\" stop-color=\"#4B9FD4\"/></linearGradient><linearGradient id=\"page\" x1=\"16\" y1=\"9\" x2=\"16\" y2=\"23\" gradientUnits=\"userSpaceOnUse\"><stop offset=\"0\" stop-color=\"#FFFFFF\"/><stop offset=\"1\" stop-color=\"#F3F8FC\"/></linearGradient></defs><rect width=\"32\" height=\"32\" rx=\"7.2\" ry=\"7.2\" fill=\"url(#bg)\"/><path fill=\"url(#page)\" d=\"M7.2 10.6c2.35-.95 4.55-1.2 6.35-1.2h.15v12.35c-1.8.05-4 .35-6.5 1.25V10.6z\"/><path fill=\"url(#page)\" d=\"M24.8 10.6c-2.35-.95-4.55-1.2-6.35-1.2h-.15v12.35c1.8.05 4 .35 6.5 1.25V10.6z\"/><path stroke=\"#D5E5F2\" stroke-width=\"0.7\" stroke-linecap=\"round\" d=\"M16.05 9.45v12.3\"/><path d=\"M9.1 17.4c2.15-2.35 4.15 2.05 6.75-.15 2.6-2.2 4.55-2.55 6.95.55\" fill=\"none\" stroke=\"#3F8FC8\" stroke-width=\"1.25\" stroke-linecap=\"round\"/><circle cx=\"10.15\" cy=\"18.55\" r=\"1.15\" fill=\"#5AA7D8\"/><circle cx=\"22.35\" cy=\"15.55\" r=\"1.15\" fill=\"#E89A6A\"/></svg>",
-    "version": "0.3.19",
-    "updated": "2026-09-12T00:41:22.438Z",
+    "version": "0.3.20",
+    "updated": "2026-09-12T04:15:59.885Z",
     "home": "https://github.com/kx1356/orca-diaryflow",
-    "zip": "https://github.com/kx1356/orca-diaryflow/releases/download/v0.3.19/orca-diaryflow-v0.3.19.zip",
+    "zip": "https://github.com/kx1356/orca-diaryflow/releases/download/v0.3.20/orca-diaryflow-v0.3.20.zip",
     "translations": {
       "zh": {
         "name": "日记流",
