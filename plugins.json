@@ -438,6 +438,25 @@
   },
   {
     "author": "sethyuan",
+    "id": "alter-theme",
+    "name": "Alternative Theme",
+    "description": "An Orca Note plugin that ships a few alternative styles for built-in elements.",
+    "category": "Theme",
+    "icon_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-labelledby=\"title altThemeDesc\" width=\"128\" height=\"128\" viewBox=\"0 0 128 128\"><title id=\"title\">Alternative Theme</title><desc id=\"altThemeDesc\">A typographic \"Aa\" with a styling stroke and heading bars, representing alternative styling for references, inline code and headings.</desc><defs><linearGradient id=\"bgGradient\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\"><stop offset=\"0%\" stop-color=\"#6366f1\"/><stop offset=\"55%\" stop-color=\"#7c5cf5\"/><stop offset=\"100%\" stop-color=\"#a855f7\"/></linearGradient><linearGradient id=\"strokeGradient\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"0%\"><stop offset=\"0%\" stop-color=\"#fef3c7\"/><stop offset=\"50%\" stop-color=\"#fcd34d\"/><stop offset=\"100%\" stop-color=\"#f59e0b\"/></linearGradient></defs><rect x=\"6\" y=\"6\" width=\"116\" height=\"116\" rx=\"28\" fill=\"url(#bgGradient)\"/><rect x=\"6\" y=\"6\" width=\"116\" height=\"116\" rx=\"28\" fill=\"none\" stroke=\"#ffffff\" stroke-opacity=\"0.18\" stroke-width=\"2\"/><path d=\"M24 14h80c8 0 14 6 14 14v10c-40-14-80-14-108 0V28c0-8 6-14 14-14z\" fill=\"#ffffff\" opacity=\"0.10\"/><g fill=\"#ffffff\"><rect x=\"28\" y=\"24\" width=\"46\" height=\"7\" rx=\"3.5\" opacity=\"0.95\"/><rect x=\"28\" y=\"37\" width=\"32\" height=\"6\" rx=\"3\" opacity=\"0.7\"/><rect x=\"28\" y=\"49\" width=\"20\" height=\"6\" rx=\"3\" opacity=\"0.5\"/></g><text x=\"64\" y=\"97\" font-family=\"system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif\" font-size=\"58\" font-weight=\"800\" fill=\"#ffffff\" text-anchor=\"middle\" letter-spacing=\"-2\">Aa</text><path d=\"M30 110c11-6 22-6 34 0s22 6 34 0\" fill=\"none\" stroke=\"url(#strokeGradient)\" stroke-width=\"7\" stroke-linecap=\"round\"/></svg>",
+    "version": "0.1.0",
+    "updated": "2026-09-26T06:52:00Z",
+    "home": "https://github.com/sethyuan/orca-plugin-alter-theme",
+    "zip": "https://github.com/sethyuan/orca-plugin-alter-theme/releases/download/v0.1.0/alter-theme-v0.1.0.zip",
+    "translations": {
+      "zh": {
+        "name": "另类主题",
+        "description": "一个虎鲸笔记插件，为内置的行内元素与标题提供若干另类样式。",
+        "category": "主题"
+      }
+    }
+  },
+  {
+    "author": "sethyuan",
     "id": "clean-editor",
     "name": "Clean Editor",
     "description": "An Orca Note plugin that hides query controls to make the interface cleaner.",
