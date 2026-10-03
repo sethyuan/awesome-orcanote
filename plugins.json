@@ -880,7 +880,7 @@
     "id": "orca-background-cover",
     "name": "背景图",
     "description": "替换虎鲸笔记背景图：支持预设壁纸、本地图片库、随机抽取、定时轮换、透明度/虚化/偏移调节，编辑器与全屏两种覆盖范围",
-    "category": "Appearance",
+    "category": "Visualization",
     "icon_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 60 60\" width=\"60\" height=\"60\"><rect x=\"4\" y=\"8\" width=\"52\" height=\"44\" rx=\"4\" fill=\"#4A90D9\"/><circle cx=\"18\" cy=\"22\" r=\"5\" fill=\"#FFD700\"/><path d=\"M4 40 L18 26 L28 36 L38 24 L56 44 L56 52 L4 52 Z\" fill=\"#7EC850\"/><path d=\"M4 46 L16 34 L24 42 L34 30 L56 52 L4 52 Z\" fill=\"#5BA832\"/></svg>",
     "version": "1.9.5",
     "updated": "2026-10-03T00:00:00Z",
@@ -889,7 +889,8 @@
     "translations": {
       "zh": {
         "name": "背景图",
-        "description": "替换虎鲸笔记背景图：支持预设壁纸、本地图片库、随机抽取、定时轮换、透明度/虚化/偏移调节，编辑器与全屏两种覆盖范围"
+        "description": "替换虎鲸笔记背景图：支持预设壁纸、本地图片库、随机抽取、定时轮换、透明度/虚化/偏移调节，编辑器与全屏两种覆盖范围",
+        "category": "可视化"
       }
     }
   },
