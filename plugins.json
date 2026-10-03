@@ -1,119 +1,5 @@
 [
   {
-    "author": "gujin03",
-    "id": "memos-sync",
-    "name": "Memos Sync",
-    "description": "Sync memos from your self-hosted Memos instance into Orca Note journals.",
-    "category": "Integration",
-    "icon_png": "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",
-    "version": "1.1.0",
-    "updated": "2026-07-16T13:55:19Z",
-    "home": "https://github.com/gujin03/memos_sync_orcanote",
-    "zip": "https://github.com/gujin03/memos_sync_orcanote/releases/download/v1.1.0/orca-memos-sync.zip",
-    "translations": {
-      "zh": {
-        "name": "Memos 同步",
-        "description": "将自建 Memos 实例中的笔记同步到虎鲸笔记的日记页面中。",
-        "category": "集成工具"
-      }
-    }
-  },
-  {
-    "author": "litcu",
-    "id": "task-planner",
-    "name": "Task Planner",
-    "description": "A GTD-based task management plugin that helps you plan your next steps.",
-    "category": "Productivity",
-    "icon_png": "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",
-    "version": "0.9.0",
-    "updated": "2026-05-010T23:42:17.230Z",
-    "home": "https://github.com/litcu/orca-plugin-task-planner",
-    "zip": "https://github.com/litcu/orca-plugin-task-planner/releases/download/v0.9.0/orca-task-planner-v0.9.0.zip",
-    "translations": {
-      "zh": {
-        "name": "Task Planner",
-        "description": "基于GTD思想的任务管理插件，帮助您规划下一步行动。",
-        "category": "效率工具"
-      }
-    }
-  },
-  {
-    "author": "luckyoubest2",
-    "id": "pinner",
-    "name": "Orca Pinner",
-    "description": "Pins reference previews and panels as draggable, always-visible floating windows, and opens the AI assistant in a fixed pinned window.",
-    "category": "Visualization",
-    "icon_png": "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",
-    "version": "1.0.4",
-    "updated": "2026-08-04T08:00:00Z",
-    "home": "https://github.com/luckyoubest2/Orca-pinner",
-    "zip": "https://github.com/luckyoubest2/Orca-pinner/releases/download/v1.0.4/orca-pinner-v1.0.4.zip",
-    "translations": {
-      "zh": {
-        "name": "Orca Pinner",
-        "description": "将引用预览与面板钉成可拖拽、常驻的浮动窗口，并让 AI 助手在固定的钉住窗口中打开。",
-        "category": "可视化"
-      }
-    }
-  },
-  {
-    "author": "luckyoubest2",
-    "id": "layout-manager",
-    "name": "Orca Layout Manager",
-    "description": "Save and apply panel layouts from the sidebar, with configurable workspace beautification (auto-hide scrollbars and panel actions, card-style panels).",
-    "category": "Visualization",
-    "version": "1.0.0",
-    "updated": "2026-08-01T18:10:53.820Z",
-    "home": "https://github.com/luckyoubest2/Orca-layout-manager",
-    "zip": "https://github.com/luckyoubest2/Orca-layout-manager/releases/download/v1.0.0/orca-layout-manager-v1.0.0.zip",
-    "translations": {
-      "zh": {
-        "name": "布局管理器",
-        "description": "在侧边栏保存与应用面板布局，并提供可配置的多面板界面美化（自动隐藏滚动条、面板操作命令，卡片化面板等）。",
-        "category": "可视化"
-      }
-    },
-    "icon_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"80\" height=\"80\" viewBox=\"0 0 512 512\"><defs><linearGradient id=\"lm-bg\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop offset=\"0\" stop-color=\"#0b6bcb\"/><stop offset=\"1\" stop-color=\"#3b9af0\"/></linearGradient></defs><rect width=\"512\" height=\"512\" rx=\"116\" fill=\"url(#lm-bg)\"/><g fill=\"#ffffff\"><rect x=\"84\" y=\"84\" width=\"344\" height=\"142\" rx=\"36\"/><rect x=\"84\" y=\"258\" width=\"160\" height=\"170\" rx=\"36\"/><rect x=\"276\" y=\"258\" width=\"152\" height=\"170\" rx=\"36\"/></g></svg>"
-  },
-  {
-    "author": "Peng52050",
-    "id": "orca-import-export",
-    "name": "Orca Import Export",
-    "description": "A multi-format import/export plugin for Orca Note with highlight syntax conversion, resume import, and interactive UI.",
-    "category": "Import/Export",
-    "icon_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"80\" height=\"80\" viewBox=\"0 0 80 80\" fill=\"none\"><rect x=\"1\" y=\"1\" width=\"78\" height=\"78\" rx=\"18\" fill=\"#16213E\"/><path d=\"M40 24 V8 M40 8 l-7 7 M40 8 l7 7\" stroke=\"#4A8CFF\" stroke-width=\"4.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"/><path d=\"M40 56 V72 M40 72 l-7 -7 M40 72 l7 -7\" stroke=\"#7C5CFF\" stroke-width=\"4.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"/><rect x=\"24\" y=\"30\" width=\"32\" height=\"20\" rx=\"5\" stroke=\"#FFFFFF\" stroke-width=\"4.5\" fill=\"none\"/><path d=\"M31 37 h18 M31 43 h18\" stroke=\"#FFFFFF\" stroke-width=\"4\" stroke-linecap=\"round\"/></svg>",
-    "version": "3.0.3",
-    "updated": "2026-08-24T14:42:06Z",
-    "home": "https://github.com/Peng52050/orca-import-export",
-    "zip": "https://github.com/Peng52050/orca-import-export/releases/download/v3.0.3/orca-import-export_v3.0.3.zip",
-    "translations": {
-      "zh": {
-        "name": "Orca 导入导出",
-        "description": "让笔记迁移更简单 - 多格式导入导出插件，支持高亮语法转换、断点续传和挖空语法",
-        "category": "导入导出"
-      }
-    }
-  },
-  {
-    "author": "Peng52050",
-    "id": "orca-plugin-picgo",
-    "name": "PicGo Image Bed",
-    "description": "Upload images to 11+ image hosting services with clipboard, file picker, drag-and-drop, batch local upload, PicGo App integration, and AWS S3 support.",
-    "category": "Productivity",
-    "icon_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 64 64\"><defs><linearGradient id=\"g\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop offset=\"0%\" stop-color=\"#2563eb\"/><stop offset=\"100%\" stop-color=\"#7c3aed\"/></linearGradient></defs><rect width=\"64\" height=\"64\" rx=\"14\" fill=\"url(#g)\"/><ellipse cx=\"32\" cy=\"46\" rx=\"18\" ry=\"9\" fill=\"#cbd5e1\"/><ellipse cx=\"22\" cy=\"44\" rx=\"8\" ry=\"6\" fill=\"#f1f5f9\"/><ellipse cx=\"42\" cy=\"44\" rx=\"8\" ry=\"6\" fill=\"#f1f5f9\"/><path d=\"M20 38c4-10 14-12 18-8 2 2 2 6 0 10-2 2-6 2-10 0-4-2-8 0-8-2z\" fill=\"#0f172a\"/><ellipse cx=\"34\" cy=\"30\" rx=\"3\" ry=\"1.5\" fill=\"#fff\"/><circle cx=\"36\" cy=\"29\" r=\".7\" fill=\"#0f172a\"/></svg>",
-    "version": "0.9.7",
-    "updated": "2026-07-14T15:25:00Z",
-    "home": "https://github.com/Peng52050/orca-plugin-picgo",
-    "zip": "https://github.com/Peng52050/orca-plugin-picgo/releases/download/v0.9.7/orca-plugin-picgo-v0.9.7.zip",
-    "translations": {
-      "zh": {
-        "name": "PicGo 图床插件",
-        "description": "支持上传图片到 11+ 图床服务，提供剪贴板上传、文件选择、拖拽上传、一键批量上传本地图片、PicGo App 委托上传及 AWS S3 支持。",
-        "category": "效率工具"
-      }
-    }
-  },
-  {
     "author": "cordinGH",
     "id": "dockpanel",
     "name": "Dockpanel",
@@ -171,23 +57,329 @@
     }
   },
   {
-    "author": "Samuelxiaozhuofeng",
-    "id": "aiichat",
-    "name": "AI Chat",
-    "description": "An AI assistant plugin for Orca Note with multi-model chat, note tools, skills, memory, web search, and file understanding.",
-    "category": "Productivity",
-    "icon_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" width=\"80\" height=\"80\" role=\"img\" aria-label=\"AI Chat icon\"><rect width=\"80\" height=\"80\" rx=\"18\" fill=\"#151A22\"/><path d=\"M18 24c0-5.5 4.5-10 10-10h24c5.5 0 10 4.5 10 10v18c0 5.5-4.5 10-10 10H39.2L27.6 62c-1.3 1.1-3.2.2-3.2-1.5V52C20.7 50.6 18 47 18 42V24Z\" fill=\"#4F8CFF\"/><path d=\"M29 29h22M29 39h15\" fill=\"none\" stroke=\"#FFFFFF\" stroke-width=\"5\" stroke-linecap=\"round\"/><circle cx=\"58\" cy=\"56\" r=\"10\" fill=\"#39D98A\"/><path d=\"M58 50v12M52 56h12\" fill=\"none\" stroke=\"#102018\" stroke-width=\"3.2\" stroke-linecap=\"round\"/></svg>",
+    "id": "orca-neo",
+    "author": "Eon-Wen",
+    "name": "Orca Neo",
+    "description": "Visual theme adapted from open-source Neo theme of Siyuan Notes for Orca Note, clean reading style with original copyright noted.",
+    "category": "Theme",
     "version": "2.0.1",
-    "updated": "2026-06-14T06:52:09Z",
-    "home": "https://github.com/Samuelxiaozhuofeng/AI-orca-plugin",
-    "zip": "https://github.com/Samuelxiaozhuofeng/AI-orca-plugin/releases/download/v2.0.1/aiichat-v2.0.1.zip",
+    "updated": "2026-08-16T01:20:34Z",
+    "home": "https://github.com/Eon-Wen/Orca-neo",
+    "zip": "https://github.com/Eon-Wen/Orca-neo/releases/download/v2.0.1/orca-neo-v2.0.1.zip",
     "translations": {
       "zh": {
-        "name": "AI Chat",
-        "description": "为虎鲸笔记提供多模型 AI 对话、笔记工具、技能、记忆、联网搜索和文件理解能力的智能助手插件。",
+        "name": "Orca Neo主题",
+        "description": "为虎鲸笔记适配移植思源笔记开源Neo主题，阅读视觉风格清爽克制，已完整标注原项目版权来源。",
+        "category": "主题"
+      }
+    },
+    "icon_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 128 128\" width=\"128\" height=\"128\"><defs><linearGradient id=\"neoBg\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop offset=\"0\" stop-color=\"#7d92ea\"/><stop offset=\"1\" stop-color=\"#5a6fd8\"/></linearGradient></defs><rect x=\"4\" y=\"4\" width=\"120\" height=\"120\" rx=\"30\" fill=\"url(#neoBg)\"/><path d=\"M42 92V36l44 56V36\" fill=\"none\" stroke=\"#ffffff\" stroke-width=\"11\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"86\" cy=\"92\" r=\"7\" fill=\"#ffffff\"/></svg>"
+  },
+  {
+    "author": "gujin03",
+    "id": "memos-sync",
+    "name": "Memos Sync",
+    "description": "Sync memos from your self-hosted Memos instance into Orca Note journals.",
+    "category": "Integration",
+    "icon_png": "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",
+    "version": "1.1.0",
+    "updated": "2026-07-16T13:55:19Z",
+    "home": "https://github.com/gujin03/memos_sync_orcanote",
+    "zip": "https://github.com/gujin03/memos_sync_orcanote/releases/download/v1.1.0/orca-memos-sync.zip",
+    "translations": {
+      "zh": {
+        "name": "Memos 同步",
+        "description": "将自建 Memos 实例中的笔记同步到虎鲸笔记的日记页面中。",
+        "category": "集成工具"
+      }
+    }
+  },
+  {
+    "id": "lets-ai-toolbar",
+    "author": "hqweay",
+    "name": "AI Toolbar",
+    "description": "AI assistant in the toolbar: built-in prompts, custom instructions, and user scripts runnable from the AI menu.",
+    "category": "Productivity",
+    "version": "4.11.0",
+    "updated": "2026-09-25T11:41:34.932Z",
+    "home": "https://github.com/hqweay/orca-hqweay-go",
+    "zip": "https://github.com/hqweay/orca-hqweay-go/releases/download/v4.11.0/lets-ai-toolbar.zip",
+    "translations": {
+      "zh": {
+        "name": "智能工具栏",
+        "description": "工具栏智能助手：内置 Prompt、自定义指令，AI 菜单里还能直接运行用户脚本。",
+        "category": "效率工具"
+      }
+    },
+    "icon_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"128\" height=\"128\" viewBox=\"0 0 128 128\"><rect x=\"8\" y=\"8\" width=\"112\" height=\"112\" rx=\"28\" fill=\"#7c3aed\"/><path d=\"M64 32 L72 56 L96 64 L72 72 L64 96 L56 72 L32 64 L56 56 Z\" fill=\"#ffffff\"/></svg>"
+  },
+  {
+    "id": "lets-arc-tabs",
+    "author": "hqweay",
+    "name": "Arc Tabs",
+    "description": "Arc-browser style sidebar for managing your notes and tabs, with recents and block drag-and-drop.",
+    "category": "Note Management",
+    "version": "4.11.0",
+    "updated": "2026-09-25T11:41:34.932Z",
+    "home": "https://github.com/hqweay/orca-hqweay-go",
+    "zip": "https://github.com/hqweay/orca-hqweay-go/releases/download/v4.11.0/lets-arc-tabs.zip",
+    "translations": {
+      "zh": {
+        "name": "Arc 风格标签页",
+        "description": "类 Arc 浏览器的侧边栏，用于管理您的笔记和标签页。",
+        "category": "笔记管理"
+      }
+    },
+    "icon_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"128\" height=\"128\" viewBox=\"0 0 128 128\"><rect x=\"8\" y=\"8\" width=\"112\" height=\"112\" rx=\"28\" fill=\"#ea580c\"/><path d=\"M40 96 L40 52 Q40 30 62 30 L66 30 Q88 30 88 52 L88 96 Z\" fill=\"#ffffff\"/></svg>"
+  },
+  {
+    "id": "lets-embed-view",
+    "author": "hqweay",
+    "name": "Embed View",
+    "description": "Embed web pages, HTML content or third-party content in notes, with AI-generated embeds.",
+    "category": "Integration",
+    "version": "4.11.0",
+    "updated": "2026-09-25T11:41:34.932Z",
+    "home": "https://github.com/hqweay/orca-hqweay-go",
+    "zip": "https://github.com/hqweay/orca-hqweay-go/releases/download/v4.11.0/lets-embed-view.zip",
+    "translations": {
+      "zh": {
+        "name": "智能嵌入块",
+        "description": "嵌入网页、HTML 内容或第三方内容，支持 AI 生成嵌入块。",
+        "category": "集成工具"
+      }
+    },
+    "icon_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"128\" height=\"128\" viewBox=\"0 0 128 128\"><rect x=\"8\" y=\"8\" width=\"112\" height=\"112\" rx=\"28\" fill=\"#0284c7\"/><circle cx=\"64\" cy=\"64\" r=\"32\" stroke=\"#ffffff\" stroke-width=\"10\" fill=\"none\"/><ellipse cx=\"64\" cy=\"64\" rx=\"13\" ry=\"32\" stroke=\"#ffffff\" stroke-width=\"8\" fill=\"none\"/><ellipse cx=\"64\" cy=\"64\" rx=\"32\" ry=\"13\" stroke=\"#ffffff\" stroke-width=\"8\" fill=\"none\"/></svg>"
+  },
+  {
+    "id": "lets-inject",
+    "author": "hqweay",
+    "name": "User Scripts",
+    "description": "Inject styles and scripts from code blocks; generate user scripts with AI; bind toolbar, block menu, sidebar entries and widgets.",
+    "category": "Productivity",
+    "version": "4.11.0",
+    "updated": "2026-09-25T11:41:34.932Z",
+    "home": "https://github.com/hqweay/orca-hqweay-go",
+    "zip": "https://github.com/hqweay/orca-hqweay-go/releases/download/v4.11.0/lets-inject.zip",
+    "translations": {
+      "zh": {
+        "name": "用户脚本",
+        "description": "给代码块打上标签即可注入样式、执行脚本，还能用 AI 生成用户脚本；绑定顶部栏/块菜单/侧边栏/快捷键等入口。",
+        "category": "效率工具"
+      }
+    },
+    "icon_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"128\" height=\"128\" viewBox=\"0 0 128 128\"><rect x=\"8\" y=\"8\" width=\"112\" height=\"112\" rx=\"28\" fill=\"#059669\"/><path d=\"M36 44 L16 64 L36 84\" stroke=\"#ffffff\" stroke-width=\"12\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"/><path d=\"M92 44 L112 64 L92 84\" stroke=\"#ffffff\" stroke-width=\"12\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"/><path d=\"M82 30 L46 98\" stroke=\"#ffffff\" stroke-width=\"12\" stroke-linecap=\"round\" fill=\"none\"/></svg>"
+  },
+  {
+    "id": "lets-time-log",
+    "author": "hqweay",
+    "name": "Time Log",
+    "description": "Aggregate tag time properties (Start/End) into day/week/month timelines and statistics, with AI-generated analysis and SVG charts.",
+    "category": "Productivity",
+    "version": "4.11.0",
+    "updated": "2026-09-25T11:41:34.932Z",
+    "home": "https://github.com/hqweay/orca-hqweay-go",
+    "zip": "https://github.com/hqweay/orca-hqweay-go/releases/download/v4.11.0/lets-time-log.zip",
+    "translations": {
+      "zh": {
+        "name": "时间统计",
+        "description": "读取标签的时间属性（开始/结束）聚合出日/周/月时间线与统计页，支持 AI 生成文字分析与 SVG 统计图表。",
+        "category": "效率工具"
+      }
+    },
+    "icon_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"128\" height=\"128\" viewBox=\"0 0 128 128\"><rect x=\"8\" y=\"8\" width=\"112\" height=\"112\" rx=\"28\" fill=\"#0d9488\"/><circle cx=\"64\" cy=\"64\" r=\"33\" stroke=\"#ffffff\" stroke-width=\"10\" fill=\"none\"/><circle cx=\"64\" cy=\"64\" r=\"4.5\" fill=\"#ffffff\"/><path d=\"M64 44 L64 64 L80 76\" stroke=\"#ffffff\" stroke-width=\"9\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"/></svg>"
+  },
+  {
+    "id": "lets-workbench",
+    "author": "hqweay",
+    "name": "Workbench",
+    "description": "A component-based dashboard: render note blocks natively, random cards, weather widgets, and let AI assemble and arrange the layout.",
+    "category": "Productivity",
+    "version": "4.11.0",
+    "updated": "2026-09-25T11:41:34.932Z",
+    "home": "https://github.com/hqweay/orca-hqweay-go",
+    "zip": "https://github.com/hqweay/orca-hqweay-go/releases/download/v4.11.0/lets-workbench.zip",
+    "translations": {
+      "zh": {
+        "name": "工作台",
+        "description": "组件化信息面板：块渲染、随机卡片、天气等组件，AI 生成与编排布局。",
+        "category": "效率工具"
+      }
+    },
+    "icon_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"128\" height=\"128\" viewBox=\"0 0 128 128\"> <rect x=\"8\" y=\"8\" width=\"112\" height=\"112\" rx=\"28\" fill=\"#7c3aed\"/> <rect x=\"22\" y=\"22\" width=\"48\" height=\"48\" rx=\"12\" fill=\"#ffffff\"/> <rect x=\"80\" y=\"22\" width=\"26\" height=\"48\" rx=\"12\" fill=\"#ffffff\" opacity=\"0.75\"/> <rect x=\"22\" y=\"80\" width=\"26\" height=\"26\" rx=\"9\" fill=\"#ffffff\" opacity=\"0.75\"/> <rect x=\"58\" y=\"80\" width=\"48\" height=\"26\" rx=\"9\" fill=\"#ffffff\" opacity=\"0.55\"/> </svg>"
+  },
+  {
+    "author": "hqweay",
+    "id": "orca-hqweay-go",
+    "name": "Dino Craft",
+    "description": "Dino Craft - some tools",
+    "category": "Productivity",
+    "icon_png": "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",
+    "version": "4.11.0",
+    "updated": "2026-09-25T11:41:34.932Z",
+    "home": "https://github.com/hqweay/orca-hqweay-go",
+    "zip": "https://github.com/hqweay/orca-hqweay-go/releases/download/v4.11.0/package.zip",
+    "donate": "https://raw.githubusercontent.com/hqweay/picbed/refs/heads/master/img/donate.jpeg",
+    "translations": {
+      "zh": {
+        "name": "恐龙工具箱",
+        "description": "一些快捷工具合集",
+        "category": "效率工具",
+        "donate": "https://raw.githubusercontent.com/hqweay/picbed/refs/heads/master/img/donate.jpeg"
+      }
+    }
+  },
+  {
+    "author": "kx1356",
+    "id": "orca-diaryflow",
+    "name": "Diary Flow",
+    "description": "Moments-style diary feed for Orca Note: timeline of #日记流 blocks, cover/avatar, tags, location, and deep edit in Orca journals.",
+    "category": "Productivity",
+    "icon_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 32 32\" width=\"32\" height=\"32\" role=\"img\" aria-label=\"Diary Flow\"><defs><linearGradient id=\"bg\" x1=\"6\" y1=\"2\" x2=\"26\" y2=\"30\" gradientUnits=\"userSpaceOnUse\"><stop offset=\"0\" stop-color=\"#F4FAFE\"/><stop offset=\"0.55\" stop-color=\"#A9D4EE\"/><stop offset=\"1\" stop-color=\"#4B9FD4\"/></linearGradient><linearGradient id=\"page\" x1=\"16\" y1=\"9\" x2=\"16\" y2=\"23\" gradientUnits=\"userSpaceOnUse\"><stop offset=\"0\" stop-color=\"#FFFFFF\"/><stop offset=\"1\" stop-color=\"#F3F8FC\"/></linearGradient></defs><rect width=\"32\" height=\"32\" rx=\"7.2\" ry=\"7.2\" fill=\"url(#bg)\"/><path fill=\"url(#page)\" d=\"M7.2 10.6c2.35-.95 4.55-1.2 6.35-1.2h.15v12.35c-1.8.05-4 .35-6.5 1.25V10.6z\"/><path fill=\"url(#page)\" d=\"M24.8 10.6c-2.35-.95-4.55-1.2-6.35-1.2h-.15v12.35c1.8.05 4 .35 6.5 1.25V10.6z\"/><path stroke=\"#D5E5F2\" stroke-width=\"0.7\" stroke-linecap=\"round\" d=\"M16.05 9.45v12.3\"/><path d=\"M9.1 17.4c2.15-2.35 4.15 2.05 6.75-.15 2.6-2.2 4.55-2.55 6.95.55\" fill=\"none\" stroke=\"#3F8FC8\" stroke-width=\"1.25\" stroke-linecap=\"round\"/><circle cx=\"10.15\" cy=\"18.55\" r=\"1.15\" fill=\"#5AA7D8\"/><circle cx=\"22.35\" cy=\"15.55\" r=\"1.15\" fill=\"#E89A6A\"/></svg>",
+    "version": "0.3.20",
+    "updated": "2026-09-12T04:15:59.885Z",
+    "home": "https://github.com/kx1356/orca-diaryflow",
+    "zip": "https://github.com/kx1356/orca-diaryflow/releases/download/v0.3.20/orca-diaryflow-v0.3.20.zip",
+    "translations": {
+      "zh": {
+        "name": "日记流",
+        "description": "朋友圈式日记时间流：标签与快捷筛选、归档柜、回收站、统计/导出/回顾、搜索与布局；新建与深度编辑跳转虎鲸日记页。",
         "category": "效率工具"
       }
     }
+  },
+  {
+    "author": "kx1356",
+    "id": "orca-pizhu",
+    "name": "Pizhu Toolbox",
+    "description": "All-in-one toolbox plugin for Orca Note: annotations (wavy underline + numbered badges + hover preview + edit/delete cards + colors + cross-block + search/keyboard navigation + one-click top-bar popup + generated summary page), Fluent 2 editor tab bar (click to switch, drag to reorder/split, vertical mode, pinned tabs), and trash bin (deleted pages auto-saved, restorable or permanently purged, search + batch actions). All features toggleable in settings.",
+    "category": "Productivity",
+    "version": "3.7.0",
+    "updated": "2026-09-12T00:38:49Z",
+    "home": "https://github.com/kx1356/orca-plugin-pizhu",
+    "zip": "https://github.com/kx1356/orca-plugin-pizhu/releases/download/v3.7.0/orca-pizhu-v3.7.0.zip",
+    "translations": {
+      "zh": {
+        "name": "批注工具箱",
+        "description": "虎鲸笔记三合一工具箱，均可在设置中开关（Fluent 2 设计）：①批注：选中文字添加波浪线 + 角标序号，悬停预览、点击编辑/删除，支持跨块、颜色、搜索与键盘导航，顶栏「批注」下拉卡一键汇总/复制，并可生成 Orca 原生批注汇总页；②编辑器页签栏：点击切换、拖拽排序/分栏、垂直模式、固定页签；③回收站：删除页面自动存入，可恢复、彻底删除、搜索与批量操作。",
+        "category": "效率工具"
+      }
+    },
+    "icon_svg": "<svg width=\"60\" height=\"60\" viewBox=\"0 0 512 512\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><defs><linearGradient id=\"bg\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#2BB6FF\"/><stop offset=\"1\" stop-color=\"#0F6CBD\"/></linearGradient><linearGradient id=\"doc\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#FFFFFF\"/><stop offset=\"1\" stop-color=\"#E8F0F8\"/></linearGradient></defs><path d=\"M114,0 L398,0 C444,0 474,30 490,76 C500,105 512,147 512,190 L512,322 C512,365 500,407 490,436 C474,482 444,512 398,512 L114,512 C68,512 38,482 22,436 C12,407 0,365 0,322 L0,190 C0,147 12,105 22,76 C38,30 68,0 114,0 Z\" fill=\"url(#bg)\"/><rect x=\"140\" y=\"90\" width=\"200\" height=\"250\" rx=\"16\" fill=\"url(#doc)\"/><rect x=\"168\" y=\"125\" width=\"144\" height=\"8\" rx=\"4\" fill=\"#0F6CBD\" opacity=\"0.25\"/><rect x=\"168\" y=\"150\" width=\"144\" height=\"8\" rx=\"4\" fill=\"#0F6CBD\" opacity=\"0.25\"/><rect x=\"168\" y=\"175\" width=\"100\" height=\"8\" rx=\"4\" fill=\"#0F6CBD\" opacity=\"0.25\"/><path d=\"M168 210 Q176 202 184 210 T200 210 T216 210 T232 210\" stroke=\"#0F6CBD\" stroke-width=\"2.5\" fill=\"none\" stroke-linecap=\"round\" opacity=\"0.5\"/><rect x=\"168\" y=\"235\" width=\"120\" height=\"8\" rx=\"4\" fill=\"#0F6CBD\" opacity=\"0.18\"/><rect x=\"168\" y=\"260\" width=\"80\" height=\"8\" rx=\"4\" fill=\"#0F6CBD\" opacity=\"0.18\"/><g transform=\"translate(300 80) rotate(35)\"><rect x=\"-8\" y=\"0\" width=\"16\" height=\"200\" rx=\"4\" fill=\"#FFD580\"/><rect x=\"-8\" y=\"160\" width=\"16\" height=\"20\" fill=\"#F5A623\"/><rect x=\"-8\" y=\"180\" width=\"16\" height=\"10\" fill=\"#D4851A\"/><path d=\"M-8 190 L0 210 L8 190 Z\" fill=\"#2C2C2C\"/><rect x=\"-8\" y=\"0\" width=\"16\" height=\"16\" rx=\"4\" fill=\"#FF8E8E\"/></g><circle cx=\"158\" cy=\"108\" r=\"20\" fill=\"#FF3B30\"/><text x=\"158\" y=\"115\" text-anchor=\"middle\" font-family=\"-apple-system, SF Pro Text, Helvetica, sans-serif\" font-size=\"18\" font-weight=\"700\" fill=\"white\">1</text><g transform=\"translate(290 300)\"><rect x=\"0\" y=\"0\" width=\"110\" height=\"72\" rx=\"16\" fill=\"white\"/><path d=\"M30 72 L45 90 L50 72 Z\" fill=\"white\"/><circle cx=\"35\" cy=\"36\" r=\"6\" fill=\"#0F6CBD\"/><circle cx=\"55\" cy=\"36\" r=\"6\" fill=\"#0F6CBD\"/><circle cx=\"75\" cy=\"36\" r=\"6\" fill=\"#0F6CBD\"/></g></svg>"
+  },
+  {
+    "author": "leommjj",
+    "id": "mcard",
+    "name": "Mcard",
+    "description": "A flomo-inspired card-style note-taking plugin for Orca Note, with tag management, parent-child card linking, and daily review.",
+    "category": "Productivity",
+    "icon_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 64 64\" width=\"64\" height=\"64\"><rect width=\"64\" height=\"64\" rx=\"14\" fill=\"#4A90D9\"/><rect x=\"12\" y=\"10\" width=\"40\" height=\"44\" rx=\"6\" fill=\"#fff\" opacity=\"0.95\"/><rect x=\"18\" y=\"18\" width=\"28\" height=\"3\" rx=\"1.5\" fill=\"#4A90D9\" opacity=\"0.7\"/><rect x=\"18\" y=\"26\" width=\"20\" height=\"2\" rx=\"1\" fill=\"#8AB4E0\" opacity=\"0.6\"/><rect x=\"18\" y=\"32\" width=\"24\" height=\"2\" rx=\"1\" fill=\"#8AB4E0\" opacity=\"0.6\"/><rect x=\"18\" y=\"38\" width=\"16\" height=\"2\" rx=\"1\" fill=\"#8AB4E0\" opacity=\"0.6\"/></svg>",
+    "version": "1.1.0",
+    "updated": "2026-08-11T12:55:05Z",
+    "home": "https://github.com/leommjj/orca-plugin-mcard",
+    "zip": "https://github.com/leommjj/orca-plugin-mcard/releases/download/v1.1.0/orca-plugin-mcard-v1.1.0.zip",
+    "translations": {
+      "zh": {
+        "name": "Mcard",
+        "description": "受 flomo 启发的虎鲸笔记卡片式记录插件，支持标签管理、父子卡片关联和每日回顾。",
+        "category": "效率工具"
+      }
+    }
+  },
+  {
+    "author": "lioyeah",
+    "id": "orca-cn-typography",
+    "name": "Chinese typography optimization",
+    "description": "Optimize Chinese typesetting, including adjustments to punctuation, spacing, and font styles.",
+    "category": "Editing",
+    "icon_png": "iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAACXBIWXMAAAsTAAALEwEAmpwYAAAEqUlEQVR4nO1bS0gbQRiehtiS0oq20kN9HDxoirUgfYiGnATxVBvbJa2CnrxrD1XQPmgPxR6E9uSjBClsLVlK8SCCL5AeRA+C4OsgpSAo7UnUZi+BKf80s26Tfcxmd5Osm4EP1j8z83//Z+afyewMQgh9RAjFEUJYA8cIoVbknBJKcNaKCWIeRwzBU0wi55QvjDHFEf3DU3gNF9S2pEBWOYqcU6KUt1JMEKssLiRVRJ9xKhwugFJMSf9YxCqA1CBROJkNnmmhNkFmE7LQ3h4BRFEUAMPDw8vUBs/UTm3BYHCP2uA50+0tF6C0tBS3tbUBAYKlpSUcCoUI4JnaqW1oaEiywTO1290eOAJXywVokwWf6wCuhgVAOnCsAPpARywVu7q6sh4YKzo7O1mDP0KJFd5kYuqIJo95AAS/s7MjOYjFYnhxcRHzPJ8TAC7AifLb3t4mnCn//3LCaZwQ832lOVT3Kz8yMmLkK5YRjI6Osg4J/SL+m1JUOwwEAlkPOBnBYFBvaMjXFekLsL+/j71eL3FaX3UZR59VZxXAAbgAp4ODA0sE4GBhIZ9b5YhEIpLqH7orMZ4KZBXvuyslPhMTE4qcIZbEwkm+YlQtpDP5okMOjuMkhz/GbmddgJ/jdyQ+4XBYkTPEYiQHYDUBjo+PcVFREfm8puKiROLl43J8ocDDNFarS33416d7KYGADT5j6QN8vXpSIbUFLmAvLi4mHM0KwKkNgdnZWamjvodlxPmfaAM+7z1nKGF97fenCAA2I32Az5jQQNoCF2qfm5szPQSQWhLs6emRHH1/W0ucz7+ukWx1dXXS3JuM+vp6qR4kr2QBwEY/h7pq/YAPWm/hzU3SFrhQW29vr32zQFVVFXFy5ZIXx781EufPw+WnhBYWVLMwLFhYBYC6av3Mz89L9V6Ey0lb4FJSWEBsfr/ftABYKQdsbGxofiV9Ph8+PDy0XQDwAb60uGxublqfBKenpzWdNjU1aS5Ednd3SWAQ6F7kbtoCAJqbmzW5zMzMmBJAgA0I+e9xOgMMDAwojsuOjg68tramSZpCbTozIsD6+jpub29X5DI4OJgyE0AsiU0VwZKlsGgCVgiQJqxZCotpwqockAkBBKUh4GQBjA4BrLYSNAO6h/eo8SpefncrowJYthQWHZoDjAqA8klQtF4AGAIwTXGBkowPAUv3A0QHJkFL9wNEBwqQE0mQd5AAnNuHAHL7ShC5XQDs9hyA3S6A4PYfQ8jtOQBlQwAKGwI3LICQjSFgpwA5sR/A6wgAG6Vgh3qwgWql7/wsEMqB/QD+rCfBk5MT3NfXZ/ursf7+fuLLTgG4dH4MTU1Nab6ssPLlKPjKuf0AXvYV18KNMh/+rfJ63F/G9nrc6BDJSBLkGae5dGEmR2RkP4DPYQEysh/AywR42nrd8sNQ0KfJWcLeWYBnzAFWwG4BcDpng1dWVrDHw3ZOyAzAx+rqqiFuegclQ3pHZeHsLRw/ZRHB7mOx4EOPx9bWFuHMcFT2AWK4XXXmD0tjtx+XxwDXX5goyF+ZaclfmkL5a3PYvRcnPS6+Oht3++XpMQYRYMGgeMEoRwus8PRuw0HMo38BnulXsB5nNuIAAAAASUVORK5CYII=",
+    "version": "1.3.0",
+    "updated": "2026-03-25T15:15:00Z",
+    "home": "https://github.com/lioyeah/orca-cn-typography",
+    "zip": "https://github.com/lioyeah/orca-cn-typography/releases/download/v1.3.0/orca-cn-typography_v1.3.0.zip",
+    "translations": {
+      "zh": {
+        "name": "中文排版优化",
+        "description": "优化中文排版，包括标点符号、间距和字体样式调整。",
+        "category": "编辑工具"
+      }
+    }
+  },
+  {
+    "author": "lioyeah",
+    "id": "shadcn-orca-theme",
+    "name": "shadcn/ui Neutral",
+    "description": "A shadcn/ui-inspired neutral theme for Orca Note with semantic tokens, CJK typography, query cards, and polished editor surfaces.",
+    "category": "Theme",
+    "icon_png": "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",
+    "version": "1.1.1",
+    "updated": "2026-08-10T03:18:00Z",
+    "home": "https://github.com/lioyeah/shadcn-orca-theme",
+    "zip": "https://github.com/lioyeah/shadcn-orca-theme/releases/download/v1.1.1/orca-shadcn-orca-theme-v1.1.1.zip",
+    "translations": {
+      "zh": {
+        "name": "shadcn/ui Neutral 主题",
+        "description": "基于 shadcn/ui 风格的 Orca Note 中性主题，提供语义化色彩、中文排版优化、查询卡片和编辑器界面样式。",
+        "category": "主题"
+      }
+    }
+  },
+  {
+    "author": "lioyeah",
+    "id": "tokyo-night-orca-theme",
+    "name": "tokyo night theme for orca",
+    "description": "Brings the classic Tokyo Night color scheme to your Orca Notes experience.",
+    "category": "Theme",
+    "icon_png": "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",
+    "version": "1.1.0",
+    "updated": "2026-03-17T16:59:00Z",
+    "home": "https://github.com/lioyeah/tokyo-night-orca-theme",
+    "zip": "https://github.com/lioyeah/tokyo-night-orca-theme/releases/download/v1.1.0/tokyo-night-orca-theme_v1.1.0.zip",
+    "translations": {
+      "zh": {
+        "name": "tokyo night 主题",
+        "description": "将经典的 Tokyo Night 配色方案带入您的 Orca Notes 体验。",
+        "category": "主题"
+      }
+    }
+  },
+  {
+    "author": "litcu",
+    "id": "task-planner",
+    "name": "Task Planner",
+    "description": "A GTD-based task management plugin that helps you plan your next steps.",
+    "category": "Productivity",
+    "icon_png": "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",
+    "version": "0.9.0",
+    "updated": "2026-05-010T23:42:17.230Z",
+    "home": "https://github.com/litcu/orca-plugin-task-planner",
+    "zip": "https://github.com/litcu/orca-plugin-task-planner/releases/download/v0.9.0/orca-task-planner-v0.9.0.zip",
+    "translations": {
+      "zh": {
+        "name": "Task Planner",
+        "description": "基于GTD思想的任务管理插件，帮助您规划下一步行动。",
+        "category": "效率工具"
+      }
+    }
+  },
+  {
+    "author": "luckyoubest2",
+    "id": "layout-manager",
+    "name": "Orca Layout Manager",
+    "description": "Save and apply panel layouts from the sidebar, with configurable workspace beautification (auto-hide scrollbars and panel actions, card-style panels).",
+    "category": "Visualization",
+    "version": "1.0.0",
+    "updated": "2026-08-01T18:10:53.820Z",
+    "home": "https://github.com/luckyoubest2/Orca-layout-manager",
+    "zip": "https://github.com/luckyoubest2/Orca-layout-manager/releases/download/v1.0.0/orca-layout-manager-v1.0.0.zip",
+    "translations": {
+      "zh": {
+        "name": "布局管理器",
+        "description": "在侧边栏保存与应用面板布局，并提供可配置的多面板界面美化（自动隐藏滚动条、面板操作命令，卡片化面板等）。",
+        "category": "可视化"
+      }
+    },
+    "icon_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"80\" height=\"80\" viewBox=\"0 0 512 512\"><defs><linearGradient id=\"lm-bg\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop offset=\"0\" stop-color=\"#0b6bcb\"/><stop offset=\"1\" stop-color=\"#3b9af0\"/></linearGradient></defs><rect width=\"512\" height=\"512\" rx=\"116\" fill=\"url(#lm-bg)\"/><g fill=\"#ffffff\"><rect x=\"84\" y=\"84\" width=\"344\" height=\"142\" rx=\"36\"/><rect x=\"84\" y=\"258\" width=\"160\" height=\"170\" rx=\"36\"/><rect x=\"276\" y=\"258\" width=\"152\" height=\"170\" rx=\"36\"/></g></svg>"
   },
   {
     "author": "luckyoubest2",
@@ -204,6 +396,158 @@
       "zh": {
         "name": "AI 对话优化",
         "description": "优化虎鲸笔记的 AI 对话体验：按面板打开上次对话、对话管理（搜索/筛选/收藏/批量操作）、空对话自动清理、一键原地新开对话。",
+        "category": "效率工具"
+      }
+    }
+  },
+  {
+    "author": "luckyoubest2",
+    "id": "orca-block-manager",
+    "name": "orca-block-manager",
+    "description": "Migrate blocks (optionally keeping an in-place reference or mirror), convert alias blocks, create aliases, and batch-manage blocks, including loading the target list from existing query blocks.",
+    "category": "Note Management",
+    "icon_png": "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",
+    "version": "1.0.0",
+    "updated": "2026-08-02T08:00:00Z",
+    "home": "https://github.com/luckyoubest2/orca-block-manager",
+    "zip": "https://github.com/luckyoubest2/orca-block-manager/releases/download/v1.0.0/orca-block-manager-v1.0.0.zip",
+    "translations": {
+      "zh": {
+        "name": "orca-block-manager",
+        "description": "迁移块（可原地保留引用或镜像块）、别名化/去别名化，并支持从已有查询块批量获取操作列表。",
+        "category": "笔记管理"
+      }
+    }
+  },
+  {
+    "author": "luckyoubest2",
+    "id": "pinner",
+    "name": "Orca Pinner",
+    "description": "Pins reference previews and panels as draggable, always-visible floating windows, and opens the AI assistant in a fixed pinned window.",
+    "category": "Visualization",
+    "icon_png": "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",
+    "version": "1.0.4",
+    "updated": "2026-08-04T08:00:00Z",
+    "home": "https://github.com/luckyoubest2/Orca-pinner",
+    "zip": "https://github.com/luckyoubest2/Orca-pinner/releases/download/v1.0.4/orca-pinner-v1.0.4.zip",
+    "translations": {
+      "zh": {
+        "name": "Orca Pinner",
+        "description": "将引用预览与面板钉成可拖拽、常驻的浮动窗口，并让 AI 助手在固定的钉住窗口中打开。",
+        "category": "可视化"
+      }
+    }
+  },
+  {
+    "author": "marknewthings",
+    "id": "eink-theme",
+    "name": "E-Ink Theme",
+    "description": "A pure black-and-white theme optimized for e-readers and E-Ink displays, with optional toggles like outlined buttons, no animations, shadow removal and image grayscale.",
+    "category": "Theme",
+    "icon_png": "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",
+    "version": "0.1.0",
+    "updated": "2026-07-28T04:10:00Z",
+    "home": "https://github.com/marknewthings/e-ink-theme",
+    "zip": "https://github.com/marknewthings/e-ink-theme/releases/download/v0.1.0/eink-theme-v0.1.0.zip",
+    "translations": {
+      "zh": {
+        "name": "E-Ink 主题",
+        "description": "专为电纸书、墨水屏显示器优化的纯黑白主题，提供描边按钮、关闭动画、去阴影、图片灰度化等可选开关。",
+        "category": "主题"
+      }
+    }
+  },
+  {
+    "author": "marknewthings",
+    "id": "quick-jump",
+    "name": "Quick Jump",
+    "description": "Mark blocks with a tag and register hotkey-bindable jump commands for each of them, with tag management, summary table generation and incremental sync.",
+    "category": "Productivity",
+    "icon_png": "iVBORw0KGgoAAAANSUhEUgAAAFAAAABQCAMAAAC5zwKfAAADAFBMVEX///////7+///+//79//7//v/+/v/+/v7//vv7/v/6+vr19PXv7/Hn7PDw6eLm6+/m6u/j6O3h4+j10KXW3+TR2t/P2N7S0tvEztzgupzyp0+xs8v9jAP6iAHzixaZpseTmbt/j7xtj8B9ibhyi775ggHVfTWYdbWccq+LfraReLd8hrxzd6T5ZwT5YgH5YQH1XwLFYDFzZY6NRDZqQFpbTmpaJ5BZJ5FdJo9cJo5bJo9aJpFWQH5UK5JWKpJUKpFYKZNYKZJXKZJYKZFXKZFVKZFUKZFXKJFYJ5FYJpFWKJFkI4tiJIxiI41iI4xhI41jIothIoxfJIxeJY5eJYxeJI1dJY5dJI1qH4hpH4lmIIpkIYtkIYpkIYljIYtkG4ZkFYNZHIlKXItNRYNBOJZHO1hCN5RAN5VGNZZDNZVFNo1LMpRIM5VGNJRLMpJHM5JGM4ROL5NMMZRMMJRML5NLMZNLMJNLL5NMMY5KMJJKL5BHMI5DMIxRLpRRLpJRLZJSLZBTLJFSLJJSLJFSLJBRLJFPLpNOLpROLpNOLpJPLZJLLpFELYVTK5FRK5BIKopJJo1DJ4dOIYwjWJ0VUJ8YT5waTp8WTp4cTZwXTZ8mSZkgSZseS54fSZwdTJ4cTJ4dSp0US50uRpImR5smRpwmRpslR5wkR5skRpwjSJwjR5sjRpwiSJwiR5wgSJwfSJsTSJsyQZoxQZkwQZkuQZkyQo0tQ5ktQpktQZgtQ2wsQ5gsQpksQpgsQZkqRZsqRJsqRJoqRJkqQ5krQpkqQpkqQpgrQZkpRZspRJspRJopRJkoRJonRZsnRJsnRJopQ5kmRZsmRJoVQ5k+QJg4Ppk4PZk4PZg3P5g3Ppk3Ppg3PZk5O5g1P5k0QJk0P5k1Ppk0Ppg1PZk5O5c2PZc3PI4zQJkyQJkyQJgxQJkzP5kxP5kyPZgvP5kgPZE+OZc8OZc7OZc6Opc6OZY9OJY9OI82OZcpOZUsOYw5M5M7L3o7KXo5InQuNZQsM3UwJ2saK1z7oAKNAAALNUlEQVR42u3Ye1DTVxYH8FDWxkKghQSICZDYFoUaITxWUSoKBHXdytNS2irSQHiUCoJCB0lBjVqr4Ht1HKXaWZ+tLRYYCSsUFHVDBVEpbFEqGiulgsijYgyR7Dn3l4Qgv3b/2dnZ7uyd6bQw+un3nHPvTX4/BtOS+RzDfOFPFozfWM+N+40F/G6C8Qcm49+8fgegxX97Qsvf3VCsHAWTXzatV83XtGfXZL6j1b8omSXYvee0cV03rQfGNWRcOmo9kgpYvzVl7u7Tn+3Zs2/f/v179+499Omnh0tKvjp56vPjR49evaKqPVdXVaWsLi/t6vz5VkdHR1tra6v6kU7K/XVQ8BlwAO5H8NChgwdLSopPgXcMvPqac+frqiqU5aWlnZ23bt1uawNQre7v12gEv9ZDwWnk9vzF4EG+4gPgHfvr0auN9d80XayrOlNRXvp1Z+cPt253tP2jrRW4/oG+wbHiKMgl8fZQ9ULBB0sOEO8IejW1Fy5Q+UrvUfnAG4DVN9g7mGxetaWxZNZuBPeZeSUHTpJ6rzWq6sGrO6tUlpZ2GTwsl3iDvYnJUhbNlKmCAdxL9a+45CtT/5qaLlwETtnVVYr9uwveTfVAP8mXCMu8aONQrKiA+w0DPlxcbPQaLzc1XYQGKpVllGfM198HXjJ4SalSq3EJHfeN9UpKDN61yxDwYt3ZamVZaedPsGHaYB7gqfv7HmK9SUlJqampTuOGghWb+gf50IMNCPOo/Ra9KvAwH/Hu4n5BLxnjpSatkPPHJZx8GvfL3jH1ngBPBfuPqre06yfitXXc6X408Mv7g32DyUkk34oVcuG4hC+f3kuVS+Zr6N+1K/W1ZD9XKLvIdgbvTrf6dT/vKa6u3isHiZe0AkAPGtDoHTZ6R642qCjvTDkcj3vtcNy6uxN8p7g4O7u4uHn6aRINXgY9CBrl4X4+cYL0rxY82NBwfu/B+e1+9Lq3K2roeflpSP/AS99OB47xyHzrv/kWPSV6nbfab+uam/2Ihp4YEhIvIyPdHLQ0gc94Ddcunzt38WLV36h6b7V360R29gl+Ls6UJ4aEhnxpaTtpEl7HcRSPelAvelVGT9fMhz/7klTmZvDEMrkhX3rujlHweTMQPZzHiaPgqWpqLoBXUf413n/tOim1d1lSmYubl1gs9vR+IkcvDTxz0FTydcx34MDJLw3nDTzoXxW5T9s7oFzDH7SWysQE9NXKwcsGL2fVjtdoSqa8U59/AefjymW8X8h8Szt/aG/XiUbvE4Po5VeYAfmy0cs0A40JX71eXEw8PG9wfuvRq8L+Ec969FOMZY+il/iJnOpfTk7mZlrwAPHIeaPqpeb7TD4rmxdtUMSKqf6tytycT1Mygie//OLEsatXyTzgfoZ54Dg6uqXYvwlG78WXWA6VvmJZYV56enYO1Lt5SwF9QpzHiSPUfC9BueVdPfhxeafZyTwfLDsOt1Kmla9JTwdvM3hraUH0jh9tgPNbC9f9GWVZ2VCzSMAXPOU/473IceTwRwrzcrNzcj/8GMC1a3fRgrBfGhoa/l5Te/7S2Yqysp4fBHa2bLaPD3OsZ8NxdOCIhgsx4IerMzdtUWxQ0ILHjx1rgPl+U1NXd7aivHyo2dGW5+LiXWnzjGfvCAGHISAUnAkNVCi2Fe2iG8qRI0caGy+rmuqqYRxlQ1J7trObs5ueP95z4CZo5VDw6s2bNxGviC7hAxjHlcsqFRlvT08zhw2H1tlXSv0f+VIfexwweo4OPlBwTg70b1OBYsO2ormhdAkfgKdSqWrqMF/PYy4bLhXnKZUccjhEel89n0Xlc+R4wES25uZAvo2KjRuKikIltAkb4fO86UJdtbK85+uhybaueO3JXjFcCG7elfY2Bk84rM3Lzf2Q1Av55syXSGgTNqpUTecvgVfeNSS15rm5ujp7V+KWtpH6uYn1QhbVP/Tka/C8Yf82Fs0JlQA4lSZhvQrnqywv67o/JBL6yUae+JGALPCmy6Q2NrD/qHzoUfNYB/0LkUgW0oDTHjSdr6s+W9EDXtdPj58+hvX0qR1eLuD5Jtjb2HEwn8ewFgay+mM4HwqFYu7c0CDJgpkz36MDsX3KnrKfu+//fLv7R7KevmLBFMnAq3Rk2TuA5yAa0W5fsxq99eDNmT8/JEgSEDCDFqyrrgbv/n3wbt+Fpb75o14vmkw8LovE40qHwVsF+494kE8iWbAwIGAWPYj75f79LuLduKFW33ysh+WKng3G4wgqKzFfJuWtnzN3frAkdOHMgFn0oMnruHOj5buWRzpN81O93hs9slu4PnofgTYPvE+oeqF/wQsWLpwxe1YMHThUbqwXvJabOqmAO2lSpe90WSUXyuU4CCtlYp5Au8ZYL+QLkixaGDBj1qyYaDOQaQJhHuh1EE8z2ZrtynOXecv0eh/gBFKZr6fXJA/tmk9G85H+zY6JiY4yT2hhBLuId/fG9y2tN3VChq0Lz0Kol/0R2ujDl+p9xZ5e0518tFs3jXqL/gTzQO8N2pLBuwdeS0urWiOymshz41lZC6BqvX5kxE/s6ekp5vG1hVvyCygvBOsF762YqDfCaEEqH3pqDZcBdyEbXgaweQkjI1qtH3oQcHj7FoM3D/cz1hsTFRYW9p47XUL4Nv79dy2wXzQiBmMiz8XWms12ZidoC+XylWL48jFJOFy4bWMB7ufQecELZsJ4/WOWRIWFh4fTgx1tNwDEhyMPoSPcXjxXFzee3cpCeUbeSrHX9EkC2NXbqPMxL4jyopdELQ4Lj4ykBW+3kXnAw9GgxuMFuP3deC48W/4wfPxmrBSjN0x5c0ODg2C7zPb3j44GLywyIm65+/hto2uD/rWob/Y9HNBIrSe6urmy2eyJVgla+DjP8JviJMR8RegtCgpaQLwYKl9E3NLlNAl1LTgP+G7f9xCeYyay2bYvwDsaj2F5Wlr2Th8nvBXgw6MoMHBRUAiVD/ZLOOSLixsLWoyC36nVfX0DDwd/cSAfI3wGSwSXPXzf2J6QQPKtWxcYGBgSAv0L8I9+C7xw6F9cRNwy85JN4A14+oB6H/YONsNXI2vhEz4/gXxaZmVu3b6zEL054EE+OL7gUfXGxUVELF0WT9fDVvT6Hvb2aqQcrkfCyBNIhV8PslbD5bx128Z166DeBfOoeUS/9SbUC9677y5duuwdWpB4g73wcPn+Su0I7L7Cwrw1udlw+32Un79l/XrFnEAJ8WbPio7BeiNhHMCB93b8+B4KdKReeBpMTk6Sw16Gb5O5EA+8fFiwnTFfkAS8GKreSGhfHOXFxgvHTZmr6Yd59IKXmAgPgxkZH3yQlpWVTbyPChTrFesCQ4Pn4TxmQ74lUWQc4MWhFxvPHTcUm+YB4uHTakrqig/AS88m9X4EHlzPVD7w/IkXBh62j3ixsS+Nf4kxTUc9XSYnpqSmoAfcqtWbwMtXUPWa5rHkzfDFkdQ8lr7zNgZ0p3mi5/QanlZTUigvKws9qHcjHA/MFzQTrlN/Mo+wMDKPZe8QLzbWie4lhlCDXqLBS8N8WyBeQYGZ50/28+LFkRERkA895OKn0r4VsRJpzD3I9zH2b62iALxg8GaQ/kWHL14cHgYgBKTixbtb0b0Vwe9YGmO9sLJWZWL/1sL3DfRCjF4U8f4Mx8PkWTPoQYaVMEWzIsXkbYIOrs0vQG9eMBxf8GLI+Y0webADY92tfuNlmpNHilwuz9uxY/sO49pFrffGrOWw4nHFujs98zLtD2b/jY8idnyhB67Xxq6pZsvdtKby7f4Dbzgt/g/+77+6t4R9M4HJZDCZTEtLpmFNGP03/g7+eZ5pvsb+BD8+z2RQf2fCPwG1wYwvqEtYcQAAAABJRU5ErkJggg==",
+    "version": "0.1.1",
+    "updated": "2026-07-28T12:52:30Z",
+    "home": "https://github.com/marknewthings/quick-jump",
+    "zip": "https://github.com/marknewthings/quick-jump/releases/download/v0.1.1/quick-jump-v0.1.1.zip",
+    "translations": {
+      "zh": {
+        "name": "快捷跳转",
+        "description": "通过标签标注块并为每个块注册可绑定快捷键的跳转命令，支持标签管理、汇总表格生成与增量同步。",
+        "category": "效率工具"
+      }
+    }
+  },
+  {
+    "author": "marknewthings",
+    "id": "super-walker",
+    "name": "Super Walker",
+    "description": "Tag query blocks and walk through their results with random or shuffle mode, with auto-walk, trip management, config sync and summary generation.",
+    "category": "Productivity",
+    "icon_png": "iVBORw0KGgoAAAANSUhEUgAAAFAAAABQCAMAAAC5zwKfAAADAFBMVEX9/PX7+vb++vH6+vf7+fX6+fb6+fX5+fb8+fH7+PT7+PP7+PL/+Or2+Pf39/f39/X89+729/b+9u389u789e789e379vD79e7/9uv89ez/9ef79ev69e/39vP29vT29fT29fP29fD49PH39PH49O/39O/89Or/9OL49O329PD98+r88+r88+n78+n78+j88un78uv78un78uj78ef98eT78ub78eb78eX/8+P+8eP98eP88eP/8t/38+738uz38ev58ef48en48ef38en28u328e328ev28en08ez/8OD98OL97+L97+H97+D88OL88N/879/97t/97t7+79n+7d797d797d387d797dv97Nv969r87Nn869v869n/69X969f869j+6tX+6dT96tf/69H/6tL+6tL+6tD/6dL+6dP+6dH+6dD57+X47+b57+P47uT47eP57eH57d/57N/5697569z47N34693469v469r66tr66dr56dr56dn46tv56df38Ob37+b37+T37uX37eP37eH18On17uXy7un27OD26tzy6uH/6ND+6NH+6ND/6M7/58//583/58z/5sz/5sv/5cz/5cv/5cr95cz/5cn+5Mj+5Mb/48b+48b+48X/4sb/4sT+4sb/4sL/4cH+4cH/4MH/4MD/4L/94MH/37/938L93b/+3bv56Nb559X56NP559T559P55tP659H75tH65tH75c/75c365dD748z55M7748n74cj84cX838P64MX73sH459b459P35tP05tbt5tz24sv23sXx4M7s4dX+3Lr+27b+2rT92rX+2LH+167+1q3+1an+1Kr+06f/06T/0qX90qX/0aD+0aD/0KD/z5//z57+z5//z5z827r72bX427z52LT51a/50ajz2sHy17zx0rLq2MXg2M3f0cL/zpv/zZn/zJf/y5j7zqD5y5zyzKTwx53gyrTQu6SxqqChm5OVkYqIhH5xb2tcW1pHSEk7PkAyNTgtMTUqLjEkKS1qJ1nTAAANgElEQVR42oXYe1yUVRoH8Dek3VSsFVeDSbZSYyxugqZkaKuyBiofkSkXRAZlQS5quimKtoAYIBcVEMRbmcoCimKheWG8wAhylVQQjQW5CTGTZigv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",
+    "version": "0.1.0",
+    "updated": "2026-07-28T12:52:30Z",
+    "home": "https://github.com/marknewthings/super-walker",
+    "zip": "https://github.com/marknewthings/super-walker/releases/download/v0.1.0/super-walker-v0.1.0.zip",
+    "translations": {
+      "zh": {
+        "name": "超级漫步",
+        "description": "通过标签标注查询块，以随机或乱序模式漫步访问查询结果，支持自动漫步、之旅管理、配置同步与汇总生成。",
+        "category": "效率工具"
+      }
+    }
+  },
+  {
+    "author": "Peng52050",
+    "id": "orca-import-export",
+    "name": "Orca Import Export",
+    "description": "A multi-format import/export plugin for Orca Note with highlight syntax conversion, resume import, and interactive UI.",
+    "category": "Import/Export",
+    "icon_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"80\" height=\"80\" viewBox=\"0 0 80 80\" fill=\"none\"><rect x=\"1\" y=\"1\" width=\"78\" height=\"78\" rx=\"18\" fill=\"#16213E\"/><path d=\"M40 24 V8 M40 8 l-7 7 M40 8 l7 7\" stroke=\"#4A8CFF\" stroke-width=\"4.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"/><path d=\"M40 56 V72 M40 72 l-7 -7 M40 72 l7 -7\" stroke=\"#7C5CFF\" stroke-width=\"4.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"/><rect x=\"24\" y=\"30\" width=\"32\" height=\"20\" rx=\"5\" stroke=\"#FFFFFF\" stroke-width=\"4.5\" fill=\"none\"/><path d=\"M31 37 h18 M31 43 h18\" stroke=\"#FFFFFF\" stroke-width=\"4\" stroke-linecap=\"round\"/></svg>",
+    "version": "3.0.3",
+    "updated": "2026-08-24T14:42:06Z",
+    "home": "https://github.com/Peng52050/orca-import-export",
+    "zip": "https://github.com/Peng52050/orca-import-export/releases/download/v3.0.3/orca-import-export_v3.0.3.zip",
+    "translations": {
+      "zh": {
+        "name": "Orca 导入导出",
+        "description": "让笔记迁移更简单 - 多格式导入导出插件，支持高亮语法转换、断点续传和挖空语法",
+        "category": "导入导出"
+      }
+    }
+  },
+  {
+    "author": "Peng52050",
+    "id": "orca-plugin-picgo",
+    "name": "PicGo Image Bed",
+    "description": "Upload images to 11+ image hosting services with clipboard, file picker, drag-and-drop, batch local upload, PicGo App integration, and AWS S3 support.",
+    "category": "Productivity",
+    "icon_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 64 64\"><defs><linearGradient id=\"g\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop offset=\"0%\" stop-color=\"#2563eb\"/><stop offset=\"100%\" stop-color=\"#7c3aed\"/></linearGradient></defs><rect width=\"64\" height=\"64\" rx=\"14\" fill=\"url(#g)\"/><ellipse cx=\"32\" cy=\"46\" rx=\"18\" ry=\"9\" fill=\"#cbd5e1\"/><ellipse cx=\"22\" cy=\"44\" rx=\"8\" ry=\"6\" fill=\"#f1f5f9\"/><ellipse cx=\"42\" cy=\"44\" rx=\"8\" ry=\"6\" fill=\"#f1f5f9\"/><path d=\"M20 38c4-10 14-12 18-8 2 2 2 6 0 10-2 2-6 2-10 0-4-2-8 0-8-2z\" fill=\"#0f172a\"/><ellipse cx=\"34\" cy=\"30\" rx=\"3\" ry=\"1.5\" fill=\"#fff\"/><circle cx=\"36\" cy=\"29\" r=\".7\" fill=\"#0f172a\"/></svg>",
+    "version": "0.9.7",
+    "updated": "2026-07-14T15:25:00Z",
+    "home": "https://github.com/Peng52050/orca-plugin-picgo",
+    "zip": "https://github.com/Peng52050/orca-plugin-picgo/releases/download/v0.9.7/orca-plugin-picgo-v0.9.7.zip",
+    "translations": {
+      "zh": {
+        "name": "PicGo 图床插件",
+        "description": "支持上传图片到 11+ 图床服务，提供剪贴板上传、文件选择、拖拽上传、一键批量上传本地图片、PicGo App 委托上传及 AWS S3 支持。",
+        "category": "效率工具"
+      }
+    }
+  },
+  {
+    "author": "Samuelxiaozhuofeng",
+    "id": "aiichat",
+    "name": "AI Chat",
+    "description": "An AI assistant plugin for Orca Note with multi-model chat, note tools, skills, memory, web search, and file understanding.",
+    "category": "Productivity",
+    "icon_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" width=\"80\" height=\"80\" role=\"img\" aria-label=\"AI Chat icon\"><rect width=\"80\" height=\"80\" rx=\"18\" fill=\"#151A22\"/><path d=\"M18 24c0-5.5 4.5-10 10-10h24c5.5 0 10 4.5 10 10v18c0 5.5-4.5 10-10 10H39.2L27.6 62c-1.3 1.1-3.2.2-3.2-1.5V52C20.7 50.6 18 47 18 42V24Z\" fill=\"#4F8CFF\"/><path d=\"M29 29h22M29 39h15\" fill=\"none\" stroke=\"#FFFFFF\" stroke-width=\"5\" stroke-linecap=\"round\"/><circle cx=\"58\" cy=\"56\" r=\"10\" fill=\"#39D98A\"/><path d=\"M58 50v12M52 56h12\" fill=\"none\" stroke=\"#102018\" stroke-width=\"3.2\" stroke-linecap=\"round\"/></svg>",
+    "version": "2.0.1",
+    "updated": "2026-06-14T06:52:09Z",
+    "home": "https://github.com/Samuelxiaozhuofeng/AI-orca-plugin",
+    "zip": "https://github.com/Samuelxiaozhuofeng/AI-orca-plugin/releases/download/v2.0.1/aiichat-v2.0.1.zip",
+    "translations": {
+      "zh": {
+        "name": "AI Chat",
+        "description": "为虎鲸笔记提供多模型 AI 对话、笔记工具、技能、记忆、联网搜索和文件理解能力的智能助手插件。",
         "category": "效率工具"
       }
     }
@@ -493,6 +837,24 @@
   },
   {
     "author": "sethyuan",
+    "id": "flomo-sync",
+    "name": "Flomo Sync",
+    "description": "Syncs Flomo notes into Orca Note (sync into journals).",
+    "category": "Integration",
+    "icon_png": "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",
+    "version": "0.3.0",
+    "updated": "2026-03-06T08:00:00Z",
+    "home": "https://github.com/sethyuan/orca-flomo-sync",
+    "zip": "https://github.com/sethyuan/orca-flomo-sync/releases/download/v0.3.0/flomo-sync-v0.3.0.zip",
+    "translations": {
+      "zh": {
+        "description": "将 Flomo 笔记同步到虎鲸笔记的插件（同步到日记）。",
+        "category": "集成工具"
+      }
+    }
+  },
+  {
+    "author": "sethyuan",
     "id": "focus-mode",
     "name": "Focus Mode",
     "description": "An Orca Note plugin that let you focus on your writing (Zen Mode).",
@@ -508,24 +870,6 @@
         "name": "专注模式",
         "description": "专注模式（禅模式）",
         "category": "可视化"
-      }
-    }
-  },
-  {
-    "author": "sethyuan",
-    "id": "flomo-sync",
-    "name": "Flomo Sync",
-    "description": "Syncs Flomo notes into Orca Note (sync into journals).",
-    "category": "Integration",
-    "icon_png": "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",
-    "version": "0.3.0",
-    "updated": "2026-03-06T08:00:00Z",
-    "home": "https://github.com/sethyuan/orca-flomo-sync",
-    "zip": "https://github.com/sethyuan/orca-flomo-sync/releases/download/v0.3.0/flomo-sync-v0.3.0.zip",
-    "translations": {
-      "zh": {
-        "description": "将 Flomo 笔记同步到虎鲸笔记的插件（同步到日记）。",
-        "category": "集成工具"
       }
     }
   },
@@ -762,118 +1106,57 @@
     }
   },
   {
-    "author": "kx1356",
-    "id": "orca-diaryflow",
-    "name": "Diary Flow",
-    "description": "Moments-style diary feed for Orca Note: timeline of #日记流 blocks, cover/avatar, tags, location, and deep edit in Orca journals.",
-    "category": "Productivity",
-    "icon_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 32 32\" width=\"32\" height=\"32\" role=\"img\" aria-label=\"Diary Flow\"><defs><linearGradient id=\"bg\" x1=\"6\" y1=\"2\" x2=\"26\" y2=\"30\" gradientUnits=\"userSpaceOnUse\"><stop offset=\"0\" stop-color=\"#F4FAFE\"/><stop offset=\"0.55\" stop-color=\"#A9D4EE\"/><stop offset=\"1\" stop-color=\"#4B9FD4\"/></linearGradient><linearGradient id=\"page\" x1=\"16\" y1=\"9\" x2=\"16\" y2=\"23\" gradientUnits=\"userSpaceOnUse\"><stop offset=\"0\" stop-color=\"#FFFFFF\"/><stop offset=\"1\" stop-color=\"#F3F8FC\"/></linearGradient></defs><rect width=\"32\" height=\"32\" rx=\"7.2\" ry=\"7.2\" fill=\"url(#bg)\"/><path fill=\"url(#page)\" d=\"M7.2 10.6c2.35-.95 4.55-1.2 6.35-1.2h.15v12.35c-1.8.05-4 .35-6.5 1.25V10.6z\"/><path fill=\"url(#page)\" d=\"M24.8 10.6c-2.35-.95-4.55-1.2-6.35-1.2h-.15v12.35c1.8.05 4 .35 6.5 1.25V10.6z\"/><path stroke=\"#D5E5F2\" stroke-width=\"0.7\" stroke-linecap=\"round\" d=\"M16.05 9.45v12.3\"/><path d=\"M9.1 17.4c2.15-2.35 4.15 2.05 6.75-.15 2.6-2.2 4.55-2.55 6.95.55\" fill=\"none\" stroke=\"#3F8FC8\" stroke-width=\"1.25\" stroke-linecap=\"round\"/><circle cx=\"10.15\" cy=\"18.55\" r=\"1.15\" fill=\"#5AA7D8\"/><circle cx=\"22.35\" cy=\"15.55\" r=\"1.15\" fill=\"#E89A6A\"/></svg>",
-    "version": "0.3.20",
-    "updated": "2026-09-12T04:15:59.885Z",
-    "home": "https://github.com/kx1356/orca-diaryflow",
-    "zip": "https://github.com/kx1356/orca-diaryflow/releases/download/v0.3.20/orca-diaryflow-v0.3.20.zip",
+    "id": "better-motion",
+    "author": "tdafricaaaaaa",
+    "name": "better motion",
+    "description": "a plugin with graceful transition animation.",
+    "category": "Theme",
+    "version": "1.2.0",
+    "updated": "2026-09-14T13:00:00Z",
+    "home": "https://github.com/tdafricaaaaaa/better-motion",
+    "zip": "https://github.com/tdafricaaaaaa/better-motion/releases/download/1.2.0/orca-better-motion.zip",
     "translations": {
       "zh": {
-        "name": "日记流",
-        "description": "朋友圈式日记时间流：标签与快捷筛选、归档柜、回收站、统计/导出/回顾、搜索与布局；新建与深度编辑跳转虎鲸日记页。",
-        "category": "效率工具"
-      }
-    }
-  },
-  {
-    "author": "kx1356",
-    "id": "orca-pizhu",
-    "name": "Pizhu Toolbox",
-    "description": "All-in-one toolbox plugin for Orca Note: annotations (wavy underline + numbered badges + hover preview + edit/delete cards + colors + cross-block + search/keyboard navigation + one-click top-bar popup + generated summary page), Fluent 2 editor tab bar (click to switch, drag to reorder/split, vertical mode, pinned tabs), and trash bin (deleted pages auto-saved, restorable or permanently purged, search + batch actions). All features toggleable in settings.",
-    "category": "Productivity",
-    "version": "3.7.0",
-    "updated": "2026-09-12T00:38:49Z",
-    "home": "https://github.com/kx1356/orca-plugin-pizhu",
-    "zip": "https://github.com/kx1356/orca-plugin-pizhu/releases/download/v3.7.0/orca-pizhu-v3.7.0.zip",
-    "translations": {
-      "zh": {
-        "name": "批注工具箱",
-        "description": "虎鲸笔记三合一工具箱，均可在设置中开关（Fluent 2 设计）：①批注：选中文字添加波浪线 + 角标序号，悬停预览、点击编辑/删除，支持跨块、颜色、搜索与键盘导航，顶栏「批注」下拉卡一键汇总/复制，并可生成 Orca 原生批注汇总页；②编辑器页签栏：点击切换、拖拽排序/分栏、垂直模式、固定页签；③回收站：删除页面自动存入，可恢复、彻底删除、搜索与批量操作。",
-        "category": "效率工具"
+        "name": "更好的动画",
+        "description": "插件带来了优雅舒适的过渡动画",
+        "category": "主题"
       }
     },
-    "icon_svg": "<svg width=\"60\" height=\"60\" viewBox=\"0 0 512 512\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><defs><linearGradient id=\"bg\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#2BB6FF\"/><stop offset=\"1\" stop-color=\"#0F6CBD\"/></linearGradient><linearGradient id=\"doc\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#FFFFFF\"/><stop offset=\"1\" stop-color=\"#E8F0F8\"/></linearGradient></defs><path d=\"M114,0 L398,0 C444,0 474,30 490,76 C500,105 512,147 512,190 L512,322 C512,365 500,407 490,436 C474,482 444,512 398,512 L114,512 C68,512 38,482 22,436 C12,407 0,365 0,322 L0,190 C0,147 12,105 22,76 C38,30 68,0 114,0 Z\" fill=\"url(#bg)\"/><rect x=\"140\" y=\"90\" width=\"200\" height=\"250\" rx=\"16\" fill=\"url(#doc)\"/><rect x=\"168\" y=\"125\" width=\"144\" height=\"8\" rx=\"4\" fill=\"#0F6CBD\" opacity=\"0.25\"/><rect x=\"168\" y=\"150\" width=\"144\" height=\"8\" rx=\"4\" fill=\"#0F6CBD\" opacity=\"0.25\"/><rect x=\"168\" y=\"175\" width=\"100\" height=\"8\" rx=\"4\" fill=\"#0F6CBD\" opacity=\"0.25\"/><path d=\"M168 210 Q176 202 184 210 T200 210 T216 210 T232 210\" stroke=\"#0F6CBD\" stroke-width=\"2.5\" fill=\"none\" stroke-linecap=\"round\" opacity=\"0.5\"/><rect x=\"168\" y=\"235\" width=\"120\" height=\"8\" rx=\"4\" fill=\"#0F6CBD\" opacity=\"0.18\"/><rect x=\"168\" y=\"260\" width=\"80\" height=\"8\" rx=\"4\" fill=\"#0F6CBD\" opacity=\"0.18\"/><g transform=\"translate(300 80) rotate(35)\"><rect x=\"-8\" y=\"0\" width=\"16\" height=\"200\" rx=\"4\" fill=\"#FFD580\"/><rect x=\"-8\" y=\"160\" width=\"16\" height=\"20\" fill=\"#F5A623\"/><rect x=\"-8\" y=\"180\" width=\"16\" height=\"10\" fill=\"#D4851A\"/><path d=\"M-8 190 L0 210 L8 190 Z\" fill=\"#2C2C2C\"/><rect x=\"-8\" y=\"0\" width=\"16\" height=\"16\" rx=\"4\" fill=\"#FF8E8E\"/></g><circle cx=\"158\" cy=\"108\" r=\"20\" fill=\"#FF3B30\"/><text x=\"158\" y=\"115\" text-anchor=\"middle\" font-family=\"-apple-system, SF Pro Text, Helvetica, sans-serif\" font-size=\"18\" font-weight=\"700\" fill=\"white\">1</text><g transform=\"translate(290 300)\"><rect x=\"0\" y=\"0\" width=\"110\" height=\"72\" rx=\"16\" fill=\"white\"/><path d=\"M30 72 L45 90 L50 72 Z\" fill=\"white\"/><circle cx=\"35\" cy=\"36\" r=\"6\" fill=\"#0F6CBD\"/><circle cx=\"55\" cy=\"36\" r=\"6\" fill=\"#0F6CBD\"/><circle cx=\"75\" cy=\"36\" r=\"6\" fill=\"#0F6CBD\"/></g></svg>"
+    "icon_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"256\" height=\"256\" viewBox=\"0 0 256 256\" role=\"img\" aria-labelledby=\"title desc\"><title id=\"title\">Orca Better Motion</title><desc id=\"desc\">紫蓝渐变圆角方形中的三条错位动态线</desc><defs><linearGradient id=\"motion-gradient\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop offset=\"0\" stop-color=\"#6367f2\"/><stop offset=\"1\" stop-color=\"#a33fd7\"/></linearGradient></defs><rect width=\"256\" height=\"256\" rx=\"64\" fill=\"url(#motion-gradient)\"/><g fill=\"#fff\" fill-opacity=\"0.92\"><rect x=\"64\" y=\"80\" width=\"86\" height=\"16\" rx=\"8\"/><rect x=\"88\" y=\"120\" width=\"102\" height=\"16\" rx=\"8\"/><rect x=\"112\" y=\"160\" width=\"98\" height=\"16\" rx=\"8\"/></g></svg>"
   },
   {
-    "author": "leommjj",
-    "id": "mcard",
-    "name": "Mcard",
-    "description": "A flomo-inspired card-style note-taking plugin for Orca Note, with tag management, parent-child card linking, and daily review.",
-    "category": "Productivity",
-    "icon_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 64 64\" width=\"64\" height=\"64\"><rect width=\"64\" height=\"64\" rx=\"14\" fill=\"#4A90D9\"/><rect x=\"12\" y=\"10\" width=\"40\" height=\"44\" rx=\"6\" fill=\"#fff\" opacity=\"0.95\"/><rect x=\"18\" y=\"18\" width=\"28\" height=\"3\" rx=\"1.5\" fill=\"#4A90D9\" opacity=\"0.7\"/><rect x=\"18\" y=\"26\" width=\"20\" height=\"2\" rx=\"1\" fill=\"#8AB4E0\" opacity=\"0.6\"/><rect x=\"18\" y=\"32\" width=\"24\" height=\"2\" rx=\"1\" fill=\"#8AB4E0\" opacity=\"0.6\"/><rect x=\"18\" y=\"38\" width=\"16\" height=\"2\" rx=\"1\" fill=\"#8AB4E0\" opacity=\"0.6\"/></svg>",
-    "version": "1.1.0",
-    "updated": "2026-08-11T12:55:05Z",
-    "home": "https://github.com/leommjj/orca-plugin-mcard",
-    "zip": "https://github.com/leommjj/orca-plugin-mcard/releases/download/v1.1.0/orca-plugin-mcard-v1.1.0.zip",
-    "translations": {
-      "zh": {
-        "name": "Mcard",
-        "description": "受 flomo 启发的虎鲸笔记卡片式记录插件，支持标签管理、父子卡片关联和每日回顾。",
-        "category": "效率工具"
-      }
-    }
-  },
-  {
-    "author": "lioyeah",
-    "id": "tokyo-night-orca-theme",
-    "name": "tokyo night theme for orca",
-    "description": "Brings the classic Tokyo Night color scheme to your Orca Notes experience.",
+    "author": "tdafricaaaaaa",
+    "id": "claude-like_theme",
+    "name": "claude-like theme",
+    "description": "Add a new claude-style theme to orca note",
     "category": "Theme",
-    "icon_png": "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",
-    "version": "1.1.0",
-    "updated": "2026-03-17T16:59:00Z",
-    "home": "https://github.com/lioyeah/tokyo-night-orca-theme",
-    "zip": "https://github.com/lioyeah/tokyo-night-orca-theme/releases/download/v1.1.0/tokyo-night-orca-theme_v1.1.0.zip",
+    "icon_svg": "<svg fill=\"#000000\" width=\"800px\" height=\"800px\" viewBox=\"0 0 32 32\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\"><title>paper</title><path d=\"M0 32l4-4 4 4 4-4 4 4 4-4 4 4 4-4 4 4v-25.984q0-2.496-1.76-4.256t-4.224-1.76h-20q-2.496 0-4.256 1.76t-1.76 4.256v25.984zM4 22.016v-16q0-0.832 0.576-1.408t1.44-0.608h20q0.8 0 1.408 0.608t0.576 1.408v16l-4 4-4-4-4 4-4-4-4 4zM8 18.016h16v-2.016h-16v2.016zM8 14.016h16v-2.016h-16v2.016zM8 10.016h16v-2.016h-16v2.016z\"></path></svg>",
+    "version": "1.2.0",
+    "updated": "2026-08-06T00:10:00Z",
+    "home": "https://github.com/tdafricaaaaaa/orca-claude-theme",
+    "zip": "https://github.com/tdafricaaaaaa/orca-claude-theme/releases/download/1.2.0/orca-claude-theme.zip",
     "translations": {
       "zh": {
-        "name": "tokyo night 主题",
-        "description": "将经典的 Tokyo Night 配色方案带入您的 Orca Notes 体验。",
+        "name": "类claude主题",
+        "description": "添加了一款类Claude主题",
         "category": "主题"
       }
     }
   },
   {
-    "author": "lioyeah",
-    "id": "orca-cn-typography",
-    "name": "Chinese typography optimization",
-    "description": "Optimize Chinese typesetting, including adjustments to punctuation, spacing, and font styles.",
-    "category": "Editing",
-    "icon_png": "iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAACXBIWXMAAAsTAAALEwEAmpwYAAAEqUlEQVR4nO1bS0gbQRiehtiS0oq20kN9HDxoirUgfYiGnATxVBvbJa2CnrxrD1XQPmgPxR6E9uSjBClsLVlK8SCCL5AeRA+C4OsgpSAo7UnUZi+BKf80s26Tfcxmd5Osm4EP1j8z83//Z+afyewMQgh9RAjFEUJYA8cIoVbknBJKcNaKCWIeRwzBU0wi55QvjDHFEf3DU3gNF9S2pEBWOYqcU6KUt1JMEKssLiRVRJ9xKhwugFJMSf9YxCqA1CBROJkNnmmhNkFmE7LQ3h4BRFEUAMPDw8vUBs/UTm3BYHCP2uA50+0tF6C0tBS3tbUBAYKlpSUcCoUI4JnaqW1oaEiywTO1290eOAJXywVokwWf6wCuhgVAOnCsAPpARywVu7q6sh4YKzo7O1mDP0KJFd5kYuqIJo95AAS/s7MjOYjFYnhxcRHzPJ8TAC7AifLb3t4mnCn//3LCaZwQ832lOVT3Kz8yMmLkK5YRjI6Osg4J/SL+m1JUOwwEAlkPOBnBYFBvaMjXFekLsL+/j71eL3FaX3UZR59VZxXAAbgAp4ODA0sE4GBhIZ9b5YhEIpLqH7orMZ4KZBXvuyslPhMTE4qcIZbEwkm+YlQtpDP5okMOjuMkhz/GbmddgJ/jdyQ+4XBYkTPEYiQHYDUBjo+PcVFREfm8puKiROLl43J8ocDDNFarS33416d7KYGADT5j6QN8vXpSIbUFLmAvLi4mHM0KwKkNgdnZWamjvodlxPmfaAM+7z1nKGF97fenCAA2I32Az5jQQNoCF2qfm5szPQSQWhLs6emRHH1/W0ucz7+ukWx1dXXS3JuM+vp6qR4kr2QBwEY/h7pq/YAPWm/hzU3SFrhQW29vr32zQFVVFXFy5ZIXx781EufPw+WnhBYWVLMwLFhYBYC6av3Mz89L9V6Ey0lb4FJSWEBsfr/ftABYKQdsbGxofiV9Ph8+PDy0XQDwAb60uGxublqfBKenpzWdNjU1aS5Ednd3SWAQ6F7kbtoCAJqbmzW5zMzMmBJAgA0I+e9xOgMMDAwojsuOjg68tramSZpCbTozIsD6+jpub29X5DI4OJgyE0AsiU0VwZKlsGgCVgiQJqxZCotpwqockAkBBKUh4GQBjA4BrLYSNAO6h/eo8SpefncrowJYthQWHZoDjAqA8klQtF4AGAIwTXGBkowPAUv3A0QHJkFL9wNEBwqQE0mQd5AAnNuHAHL7ShC5XQDs9hyA3S6A4PYfQ8jtOQBlQwAKGwI3LICQjSFgpwA5sR/A6wgAG6Vgh3qwgWql7/wsEMqB/QD+rCfBk5MT3NfXZ/ursf7+fuLLTgG4dH4MTU1Nab6ssPLlKPjKuf0AXvYV18KNMh/+rfJ63F/G9nrc6BDJSBLkGae5dGEmR2RkP4DPYQEysh/AywR42nrd8sNQ0KfJWcLeWYBnzAFWwG4BcDpng1dWVrDHw3ZOyAzAx+rqqiFuegclQ3pHZeHsLRw/ZRHB7mOx4EOPx9bWFuHMcFT2AWK4XXXmD0tjtx+XxwDXX5goyF+ZaclfmkL5a3PYvRcnPS6+Oht3++XpMQYRYMGgeMEoRwus8PRuw0HMo38BnulXsB5nNuIAAAAASUVORK5CYII=",
-    "version": "1.3.0",
-    "updated": "2026-03-25T15:15:00Z",
-    "home": "https://github.com/lioyeah/orca-cn-typography",
-    "zip": "https://github.com/lioyeah/orca-cn-typography/releases/download/v1.3.0/orca-cn-typography_v1.3.0.zip",
-    "translations": {
-      "zh": {
-        "name": "中文排版优化",
-        "description": "优化中文排版，包括标点符号、间距和字体样式调整。",
-        "category": "编辑工具"
-      }
-    }
-  },
-  {
-    "author": "lioyeah",
-    "id": "shadcn-orca-theme",
-    "name": "shadcn/ui Neutral",
-    "description": "A shadcn/ui-inspired neutral theme for Orca Note with semantic tokens, CJK typography, query cards, and polished editor surfaces.",
-    "category": "Theme",
-    "icon_png": "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",
-    "version": "1.1.1",
-    "updated": "2026-08-10T03:18:00Z",
-    "home": "https://github.com/lioyeah/shadcn-orca-theme",
-    "zip": "https://github.com/lioyeah/shadcn-orca-theme/releases/download/v1.1.1/orca-shadcn-orca-theme-v1.1.1.zip",
-    "translations": {
-      "zh": {
-        "name": "shadcn/ui Neutral 主题",
-        "description": "基于 shadcn/ui 风格的 Orca Note 中性主题，提供语义化色彩、中文排版优化、查询卡片和编辑器界面样式。",
-        "category": "主题"
-      }
-    }
+    "author": "xingqushiranzhiren1",
+    "id": "orca-background-cover",
+    "name": "背景图",
+    "description": "替换虎鲸笔记背景图，支持自定义 URL、本地图片、预设壁纸和随机切换",
+    "category": "Appearance",
+    "icon_png": "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",
+    "version": "1.0.0",
+    "updated": "2026-10-03",
+    "home": "https://github.com/xingqushiranzhiren1/orca-background-cover",
+    "zip": "https://github.com/xingqushiranzhiren1/orca-background-cover/releases/download/v1.0.0/orca-background-cover.zip",
+    "translations": [
+      "zh-CN"
+    ]
   },
   {
     "author": "XxKARLxX",
@@ -914,84 +1197,6 @@
     }
   },
   {
-    "author": "hqweay",
-    "id": "orca-hqweay-go",
-    "name": "Dino Craft",
-    "description": "Dino Craft - some tools",
-    "category": "Productivity",
-    "icon_png": "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",
-    "version": "4.11.0",
-    "updated": "2026-09-25T11:41:34.932Z",
-    "home": "https://github.com/hqweay/orca-hqweay-go",
-    "zip": "https://github.com/hqweay/orca-hqweay-go/releases/download/v4.11.0/package.zip",
-    "donate": "https://raw.githubusercontent.com/hqweay/picbed/refs/heads/master/img/donate.jpeg",
-    "translations": {
-      "zh": {
-        "name": "恐龙工具箱",
-        "description": "一些快捷工具合集",
-        "category": "效率工具",
-        "donate": "https://raw.githubusercontent.com/hqweay/picbed/refs/heads/master/img/donate.jpeg"
-      }
-    }
-  },
-  {
-    "author": "marknewthings",
-    "id": "eink-theme",
-    "name": "E-Ink Theme",
-    "description": "A pure black-and-white theme optimized for e-readers and E-Ink displays, with optional toggles like outlined buttons, no animations, shadow removal and image grayscale.",
-    "category": "Theme",
-    "icon_png": "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",
-    "version": "0.1.0",
-    "updated": "2026-07-28T04:10:00Z",
-    "home": "https://github.com/marknewthings/e-ink-theme",
-    "zip": "https://github.com/marknewthings/e-ink-theme/releases/download/v0.1.0/eink-theme-v0.1.0.zip",
-    "translations": {
-      "zh": {
-        "name": "E-Ink 主题",
-        "description": "专为电纸书、墨水屏显示器优化的纯黑白主题，提供描边按钮、关闭动画、去阴影、图片灰度化等可选开关。",
-        "category": "主题"
-      }
-    }
-  },
-  {
-    "author": "marknewthings",
-    "id": "quick-jump",
-    "name": "Quick Jump",
-    "description": "Mark blocks with a tag and register hotkey-bindable jump commands for each of them, with tag management, summary table generation and incremental sync.",
-    "category": "Productivity",
-    "icon_png": "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",
-    "version": "0.1.1",
-    "updated": "2026-07-28T12:52:30Z",
-    "home": "https://github.com/marknewthings/quick-jump",
-    "zip": "https://github.com/marknewthings/quick-jump/releases/download/v0.1.1/quick-jump-v0.1.1.zip",
-    "translations": {
-      "zh": {
-        "name": "快捷跳转",
-        "description": "通过标签标注块并为每个块注册可绑定快捷键的跳转命令，支持标签管理、汇总表格生成与增量同步。",
-        "category": "效率工具"
-      }
-    }
-  },
-  {
-    "author": "marknewthings",
-    "id": "super-walker",
-    "name": "Super Walker",
-    "description": "Tag query blocks and walk through their results with random or shuffle mode, with auto-walk, trip management, config sync and summary generation.",
-    "category": "Productivity",
-    "icon_png": "iVBORw0KGgoAAAANSUhEUgAAAFAAAABQCAMAAAC5zwKfAAADAFBMVEX9/PX7+vb++vH6+vf7+fX6+fb6+fX5+fb8+fH7+PT7+PP7+PL/+Or2+Pf39/f39/X89+729/b+9u389u789e789e379vD79e7/9uv89ez/9ef79ev69e/39vP29vT29fT29fP29fD49PH39PH49O/39O/89Or/9OL49O329PD98+r88+r88+n78+n78+j88un78uv78un78uj78ef98eT78ub78eb78eX/8+P+8eP98eP88eP/8t/38+738uz38ev58ef48en48ef38en28u328e328ev28en08ez/8OD98OL97+L97+H97+D88OL88N/879/97t/97t7+79n+7d797d797d387d797dv97Nv969r87Nn869v869n/69X969f869j+6tX+6dT96tf/69H/6tL+6tL+6tD/6dL+6dP+6dH+6dD57+X47+b57+P47uT47eP57eH57d/57N/5697569z47N34693469v469r66tr66dr56dr56dn46tv56df38Ob37+b37+T37uX37eP37eH18On17uXy7un27OD26tzy6uH/6ND+6NH+6ND/6M7/58//583/58z/5sz/5sv/5cz/5cv/5cr95cz/5cn+5Mj+5Mb/48b+48b+48X/4sb/4sT+4sb/4sL/4cH+4cH/4MH/4MD/4L/94MH/37/938L93b/+3bv56Nb559X56NP559T559P55tP659H75tH65tH75c/75c365dD748z55M7748n74cj84cX838P64MX73sH459b459P35tP05tbt5tz24sv23sXx4M7s4dX+3Lr+27b+2rT92rX+2LH+167+1q3+1an+1Kr+06f/06T/0qX90qX/0aD+0aD/0KD/z5//z57+z5//z5z827r72bX427z52LT51a/50ajz2sHy17zx0rLq2MXg2M3f0cL/zpv/zZn/zJf/y5j7zqD5y5zyzKTwx53gyrTQu6SxqqChm5OVkYqIhH5xb2tcW1pHSEk7PkAyNTgtMTUqLjEkKS1qJ1nTAAANgElEQVR42oXYe1yUVRoH8Dek3VSsFVeDSbZSYyxugqZkaKuyBiofkSkXRAZlQS5quimKtoAYIBcVEMRbmcoCimKheWG8wAhylVQQjQW5CTGTZigv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",
-    "version": "0.1.0",
-    "updated": "2026-07-28T12:52:30Z",
-    "home": "https://github.com/marknewthings/super-walker",
-    "zip": "https://github.com/marknewthings/super-walker/releases/download/v0.1.0/super-walker-v0.1.0.zip",
-    "translations": {
-      "zh": {
-        "name": "超级漫步",
-        "description": "通过标签标注查询块，以随机或乱序模式漫步访问查询结果，支持自动漫步、之旅管理、配置同步与汇总生成。",
-        "category": "效率工具"
-      }
-    }
-  },
-  {
     "author": "zlflly",
     "id": "paper-annotations",
     "name": "Paper Annotations",
@@ -1009,195 +1214,5 @@
         "category": "效率工具"
       }
     }
-  },
-  {
-    "author": "luckyoubest2",
-    "id": "orca-block-manager",
-    "name": "orca-block-manager",
-    "description": "Migrate blocks (optionally keeping an in-place reference or mirror), convert alias blocks, create aliases, and batch-manage blocks, including loading the target list from existing query blocks.",
-    "category": "Note Management",
-    "icon_png": "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",
-    "version": "1.0.0",
-    "updated": "2026-08-02T08:00:00Z",
-    "home": "https://github.com/luckyoubest2/orca-block-manager",
-    "zip": "https://github.com/luckyoubest2/orca-block-manager/releases/download/v1.0.0/orca-block-manager-v1.0.0.zip",
-    "translations": {
-      "zh": {
-        "name": "orca-block-manager",
-        "description": "迁移块（可原地保留引用或镜像块）、别名化/去别名化，并支持从已有查询块批量获取操作列表。",
-        "category": "笔记管理"
-      }
-    }
-  },
-  {
-    "author": "tdafricaaaaaa",
-    "id": "claude-like_theme",
-    "name": "claude-like theme",
-    "description": "Add a new claude-style theme to orca note",
-    "category": "Theme",
-    "icon_svg": "<svg fill=\"#000000\" width=\"800px\" height=\"800px\" viewBox=\"0 0 32 32\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\"><title>paper</title><path d=\"M0 32l4-4 4 4 4-4 4 4 4-4 4 4 4-4 4 4v-25.984q0-2.496-1.76-4.256t-4.224-1.76h-20q-2.496 0-4.256 1.76t-1.76 4.256v25.984zM4 22.016v-16q0-0.832 0.576-1.408t1.44-0.608h20q0.8 0 1.408 0.608t0.576 1.408v16l-4 4-4-4-4 4-4-4-4 4zM8 18.016h16v-2.016h-16v2.016zM8 14.016h16v-2.016h-16v2.016zM8 10.016h16v-2.016h-16v2.016z\"></path></svg>",
-    "version": "1.2.0",
-    "updated": "2026-08-06T00:10:00Z",
-    "home": "https://github.com/tdafricaaaaaa/orca-claude-theme",
-    "zip": "https://github.com/tdafricaaaaaa/orca-claude-theme/releases/download/1.2.0/orca-claude-theme.zip",
-    "translations": {
-      "zh": {
-        "name": "类claude主题",
-        "description": "添加了一款类Claude主题",
-        "category": "主题"
-      }
-    }
-  },
-  {
-    "id": "lets-ai-toolbar",
-    "author": "hqweay",
-    "name": "AI Toolbar",
-    "description": "AI assistant in the toolbar: built-in prompts, custom instructions, and user scripts runnable from the AI menu.",
-    "category": "Productivity",
-    "version": "4.11.0",
-    "updated": "2026-09-25T11:41:34.932Z",
-    "home": "https://github.com/hqweay/orca-hqweay-go",
-    "zip": "https://github.com/hqweay/orca-hqweay-go/releases/download/v4.11.0/lets-ai-toolbar.zip",
-    "translations": {
-      "zh": {
-        "name": "智能工具栏",
-        "description": "工具栏智能助手：内置 Prompt、自定义指令，AI 菜单里还能直接运行用户脚本。",
-        "category": "效率工具"
-      }
-    },
-    "icon_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"128\" height=\"128\" viewBox=\"0 0 128 128\"><rect x=\"8\" y=\"8\" width=\"112\" height=\"112\" rx=\"28\" fill=\"#7c3aed\"/><path d=\"M64 32 L72 56 L96 64 L72 72 L64 96 L56 72 L32 64 L56 56 Z\" fill=\"#ffffff\"/></svg>"
-  },
-  {
-    "id": "lets-arc-tabs",
-    "author": "hqweay",
-    "name": "Arc Tabs",
-    "description": "Arc-browser style sidebar for managing your notes and tabs, with recents and block drag-and-drop.",
-    "category": "Note Management",
-    "version": "4.11.0",
-    "updated": "2026-09-25T11:41:34.932Z",
-    "home": "https://github.com/hqweay/orca-hqweay-go",
-    "zip": "https://github.com/hqweay/orca-hqweay-go/releases/download/v4.11.0/lets-arc-tabs.zip",
-    "translations": {
-      "zh": {
-        "name": "Arc 风格标签页",
-        "description": "类 Arc 浏览器的侧边栏，用于管理您的笔记和标签页。",
-        "category": "笔记管理"
-      }
-    },
-    "icon_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"128\" height=\"128\" viewBox=\"0 0 128 128\"><rect x=\"8\" y=\"8\" width=\"112\" height=\"112\" rx=\"28\" fill=\"#ea580c\"/><path d=\"M40 96 L40 52 Q40 30 62 30 L66 30 Q88 30 88 52 L88 96 Z\" fill=\"#ffffff\"/></svg>"
-  },
-  {
-    "id": "lets-embed-view",
-    "author": "hqweay",
-    "name": "Embed View",
-    "description": "Embed web pages, HTML content or third-party content in notes, with AI-generated embeds.",
-    "category": "Integration",
-    "version": "4.11.0",
-    "updated": "2026-09-25T11:41:34.932Z",
-    "home": "https://github.com/hqweay/orca-hqweay-go",
-    "zip": "https://github.com/hqweay/orca-hqweay-go/releases/download/v4.11.0/lets-embed-view.zip",
-    "translations": {
-      "zh": {
-        "name": "智能嵌入块",
-        "description": "嵌入网页、HTML 内容或第三方内容，支持 AI 生成嵌入块。",
-        "category": "集成工具"
-      }
-    },
-    "icon_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"128\" height=\"128\" viewBox=\"0 0 128 128\"><rect x=\"8\" y=\"8\" width=\"112\" height=\"112\" rx=\"28\" fill=\"#0284c7\"/><circle cx=\"64\" cy=\"64\" r=\"32\" stroke=\"#ffffff\" stroke-width=\"10\" fill=\"none\"/><ellipse cx=\"64\" cy=\"64\" rx=\"13\" ry=\"32\" stroke=\"#ffffff\" stroke-width=\"8\" fill=\"none\"/><ellipse cx=\"64\" cy=\"64\" rx=\"32\" ry=\"13\" stroke=\"#ffffff\" stroke-width=\"8\" fill=\"none\"/></svg>"
-  },
-  {
-    "id": "lets-inject",
-    "author": "hqweay",
-    "name": "User Scripts",
-    "description": "Inject styles and scripts from code blocks; generate user scripts with AI; bind toolbar, block menu, sidebar entries and widgets.",
-    "category": "Productivity",
-    "version": "4.11.0",
-    "updated": "2026-09-25T11:41:34.932Z",
-    "home": "https://github.com/hqweay/orca-hqweay-go",
-    "zip": "https://github.com/hqweay/orca-hqweay-go/releases/download/v4.11.0/lets-inject.zip",
-    "translations": {
-      "zh": {
-        "name": "用户脚本",
-        "description": "给代码块打上标签即可注入样式、执行脚本，还能用 AI 生成用户脚本；绑定顶部栏/块菜单/侧边栏/快捷键等入口。",
-        "category": "效率工具"
-      }
-    },
-    "icon_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"128\" height=\"128\" viewBox=\"0 0 128 128\"><rect x=\"8\" y=\"8\" width=\"112\" height=\"112\" rx=\"28\" fill=\"#059669\"/><path d=\"M36 44 L16 64 L36 84\" stroke=\"#ffffff\" stroke-width=\"12\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"/><path d=\"M92 44 L112 64 L92 84\" stroke=\"#ffffff\" stroke-width=\"12\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"/><path d=\"M82 30 L46 98\" stroke=\"#ffffff\" stroke-width=\"12\" stroke-linecap=\"round\" fill=\"none\"/></svg>"
-  },
-  {
-    "id": "lets-time-log",
-    "author": "hqweay",
-    "name": "Time Log",
-    "description": "Aggregate tag time properties (Start/End) into day/week/month timelines and statistics, with AI-generated analysis and SVG charts.",
-    "category": "Productivity",
-    "version": "4.11.0",
-    "updated": "2026-09-25T11:41:34.932Z",
-    "home": "https://github.com/hqweay/orca-hqweay-go",
-    "zip": "https://github.com/hqweay/orca-hqweay-go/releases/download/v4.11.0/lets-time-log.zip",
-    "translations": {
-      "zh": {
-        "name": "时间统计",
-        "description": "读取标签的时间属性（开始/结束）聚合出日/周/月时间线与统计页，支持 AI 生成文字分析与 SVG 统计图表。",
-        "category": "效率工具"
-      }
-    },
-    "icon_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"128\" height=\"128\" viewBox=\"0 0 128 128\"><rect x=\"8\" y=\"8\" width=\"112\" height=\"112\" rx=\"28\" fill=\"#0d9488\"/><circle cx=\"64\" cy=\"64\" r=\"33\" stroke=\"#ffffff\" stroke-width=\"10\" fill=\"none\"/><circle cx=\"64\" cy=\"64\" r=\"4.5\" fill=\"#ffffff\"/><path d=\"M64 44 L64 64 L80 76\" stroke=\"#ffffff\" stroke-width=\"9\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"/></svg>"
-  },
-  {
-    "id": "lets-workbench",
-    "author": "hqweay",
-    "name": "Workbench",
-    "description": "A component-based dashboard: render note blocks natively, random cards, weather widgets, and let AI assemble and arrange the layout.",
-    "category": "Productivity",
-    "version": "4.11.0",
-    "updated": "2026-09-25T11:41:34.932Z",
-    "home": "https://github.com/hqweay/orca-hqweay-go",
-    "zip": "https://github.com/hqweay/orca-hqweay-go/releases/download/v4.11.0/lets-workbench.zip",
-    "translations": {
-      "zh": {
-        "name": "工作台",
-        "description": "组件化信息面板：块渲染、随机卡片、天气等组件，AI 生成与编排布局。",
-        "category": "效率工具"
-      }
-    },
-    "icon_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"128\" height=\"128\" viewBox=\"0 0 128 128\"> <rect x=\"8\" y=\"8\" width=\"112\" height=\"112\" rx=\"28\" fill=\"#7c3aed\"/> <rect x=\"22\" y=\"22\" width=\"48\" height=\"48\" rx=\"12\" fill=\"#ffffff\"/> <rect x=\"80\" y=\"22\" width=\"26\" height=\"48\" rx=\"12\" fill=\"#ffffff\" opacity=\"0.75\"/> <rect x=\"22\" y=\"80\" width=\"26\" height=\"26\" rx=\"9\" fill=\"#ffffff\" opacity=\"0.75\"/> <rect x=\"58\" y=\"80\" width=\"48\" height=\"26\" rx=\"9\" fill=\"#ffffff\" opacity=\"0.55\"/> </svg>"
-  },
-  {
-    "id": "orca-neo",
-    "author": "Eon-Wen",
-    "name": "Orca Neo",
-    "description": "Visual theme adapted from open-source Neo theme of Siyuan Notes for Orca Note, clean reading style with original copyright noted.",
-    "category": "Theme",
-    "version": "2.0.1",
-    "updated": "2026-08-16T01:20:34Z",
-    "home": "https://github.com/Eon-Wen/Orca-neo",
-    "zip": "https://github.com/Eon-Wen/Orca-neo/releases/download/v2.0.1/orca-neo-v2.0.1.zip",
-    "translations": {
-      "zh": {
-        "name": "Orca Neo主题",
-        "description": "为虎鲸笔记适配移植思源笔记开源Neo主题，阅读视觉风格清爽克制，已完整标注原项目版权来源。",
-        "category": "主题"
-      }
-    },
-    "icon_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 128 128\" width=\"128\" height=\"128\"><defs><linearGradient id=\"neoBg\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop offset=\"0\" stop-color=\"#7d92ea\"/><stop offset=\"1\" stop-color=\"#5a6fd8\"/></linearGradient></defs><rect x=\"4\" y=\"4\" width=\"120\" height=\"120\" rx=\"30\" fill=\"url(#neoBg)\"/><path d=\"M42 92V36l44 56V36\" fill=\"none\" stroke=\"#ffffff\" stroke-width=\"11\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"86\" cy=\"92\" r=\"7\" fill=\"#ffffff\"/></svg>"
-  },
-  {
-    "id": "better-motion",
-    "author": "tdafricaaaaaa",
-    "name": "better motion",
-    "description": "a plugin with graceful transition animation.",
-    "category": "Theme",
-    "version": "1.2.0",
-    "updated": "2026-09-14T13:00:00Z",
-    "home": "https://github.com/tdafricaaaaaa/better-motion",
-    "zip": "https://github.com/tdafricaaaaaa/better-motion/releases/download/1.2.0/orca-better-motion.zip",
-    "translations": {
-      "zh": {
-        "name": "更好的动画",
-        "description": "插件带来了优雅舒适的过渡动画",
-        "category": "主题"
-      }
-    },
-    "icon_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"256\" height=\"256\" viewBox=\"0 0 256 256\" role=\"img\" aria-labelledby=\"title desc\"><title id=\"title\">Orca Better Motion</title><desc id=\"desc\">紫蓝渐变圆角方形中的三条错位动态线</desc><defs><linearGradient id=\"motion-gradient\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop offset=\"0\" stop-color=\"#6367f2\"/><stop offset=\"1\" stop-color=\"#a33fd7\"/></linearGradient></defs><rect width=\"256\" height=\"256\" rx=\"64\" fill=\"url(#motion-gradient)\"/><g fill=\"#fff\" fill-opacity=\"0.92\"><rect x=\"64\" y=\"80\" width=\"86\" height=\"16\" rx=\"8\"/><rect x=\"88\" y=\"120\" width=\"102\" height=\"16\" rx=\"8\"/><rect x=\"112\" y=\"160\" width=\"98\" height=\"16\" rx=\"8\"/></g></svg>"
   }
 ]
