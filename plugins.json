@@ -1258,5 +1258,24 @@
       }
     },
     "icon_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"256\" height=\"256\" viewBox=\"0 0 256 256\" role=\"img\" aria-labelledby=\"title desc\"><title id=\"title\">Orca Better Motion</title><desc id=\"desc\">紫蓝渐变圆角方形中的三条错位动态线</desc><defs><linearGradient id=\"motion-gradient\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop offset=\"0\" stop-color=\"#6367f2\"/><stop offset=\"1\" stop-color=\"#a33fd7\"/></linearGradient></defs><rect width=\"256\" height=\"256\" rx=\"64\" fill=\"url(#motion-gradient)\"/><g fill=\"#fff\" fill-opacity=\"0.92\"><rect x=\"64\" y=\"80\" width=\"86\" height=\"16\" rx=\"8\"/><rect x=\"88\" y=\"120\" width=\"102\" height=\"16\" rx=\"8\"/><rect x=\"112\" y=\"160\" width=\"98\" height=\"16\" rx=\"8\"/></g></svg>"
+  },
+  {
+    "author": "theseussss",
+    "id": "orca-footnotes",
+    "name": "Footnotes",
+    "description": "Native footnotes: superscript numbers in the text, a footnote section at the end of the page and a floating directory. Footnotes are ordinary blocks tagged #尾注, searchable and @-referable.",
+    "category": "Editing",
+    "icon_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"60\" height=\"60\" viewBox=\"0 0 512 512\"><rect x=\"12\" y=\"12\" width=\"488\" height=\"488\" rx=\"100\" fill=\"#1d2e49\"/><rect x=\"108\" y=\"180\" width=\"212\" height=\"20\" rx=\"10\" fill=\"#e8f0fa\"/><rect x=\"108\" y=\"242\" width=\"242\" height=\"20\" rx=\"10\" fill=\"#e8f0fa\"/><rect x=\"108\" y=\"304\" width=\"242\" height=\"20\" rx=\"10\" fill=\"#e8f0fa\"/><polyline points=\"356,122 384,100 384,178\" fill=\"none\" stroke=\"#8bb9fc\" stroke-width=\"18\"/><line x1=\"357\" y1=\"178\" x2=\"408\" y2=\"178\" stroke=\"#8bb9fc\" stroke-width=\"14\"/><line x1=\"108\" y1=\"364\" x2=\"240\" y2=\"364\" stroke=\"#8bb9fc\" stroke-width=\"8\"/><rect x=\"108\" y=\"397\" width=\"262\" height=\"12\" rx=\"6\" fill=\"#8bb9fc\"/></svg>",
+    "version": "0.6.1",
+    "updated": "2026-11-02T08:19:13Z",
+    "home": "https://github.com/theseussss/orca-footnotes",
+    "zip": "https://github.com/theseussss/orca-footnotes/releases/download/v0.6.1/orca-footnotes-v0.6.1.zip",
+    "translations": {
+      "zh": {
+        "name": "尾注",
+        "description": "原生的尾注：正文上标编号、文末尾注区、右侧尾注目录。尾注是带 #尾注 标签的普通块，可以搜索、可以 @ 引用。",
+        "category": "编辑工具"
+      }
+    }
   }
 ]
